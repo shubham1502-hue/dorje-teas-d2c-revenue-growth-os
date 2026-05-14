@@ -1,0 +1,13 @@
+product_id,product_name,category,pack_size_gm,price,cogs,packaging_cost,shipping_cost_blended,gateway_fee_est,gross_margin_est,gross_margin_pct,price_per_cup_est,ladder_rung,primary_segment,replenishment_days,is_subscription_sku,is_gift_sku,data_label
+SKU-001,First Flush Darjeeling,First Flush,100,750,180,55,106,15.0,394.0,52.5,18.8,premium_seasonal,Darjeeling Loyalist,45,FALSE,FALSE,[SYNTHETIC]
+SKU-002,Second Flush Darjeeling,Second Flush,100,650,160,55,106,13.0,316.0,48.6,16.2,premium_seasonal,Darjeeling Loyalist,45,FALSE,FALSE,[SYNTHETIC]
+SKU-003,Original Darjeeling Chai,Chai,100,399,110,55,90,7.98,136.02,34.1,10.0,daily_replenishment,Daily Premium Tea Drinker,28,FALSE,FALSE,[SYNTHETIC]
+SKU-004,Original Darjeeling Chai,Chai,250,849,240,65,90,16.98,437.02,51.5,8.5,daily_replenishment,Daily Premium Tea Drinker,60,FALSE,FALSE,[SYNTHETIC]
+SKU-005,Darjeeling Green Tea,Green Tea,100,549,140,55,95,10.98,248.02,45.2,13.7,premium_seasonal,Health/Wellness Consumer,35,FALSE,FALSE,[SYNTHETIC]
+SKU-006,First Flush Green Tea,Green Tea,100,699,165,55,100,13.98,365.02,52.2,17.5,premium_seasonal,Health/Wellness Consumer,40,FALSE,FALSE,[SYNTHETIC]
+SKU-007,Darjeeling Pyramid Teabags,Pyramid Teabags,50,350,90,50,85,7.0,118.0,33.7,17.5,discovery,Daily Premium Tea Drinker,30,FALSE,FALSE,[SYNTHETIC]
+SKU-008,Cold Brew Darjeeling,Cold Brew,100,499,130,55,95,9.98,209.02,41.9,12.5,discovery,Health/Wellness Consumer,35,FALSE,FALSE,[SYNTHETIC]
+SKU-009,Selim Hill Gift Box Classic,Gift Box,200,1299,290,130,120,25.98,733.02,56.4,16.2,gifting,Gift Buyer,90,FALSE,TRUE,[SYNTHETIC]
+SKU-010,Selim Hill Gift Box Premium,Gift Box,300,1999,420,180,130,39.98,1229.02,61.5,16.7,gifting,Gift Buyer,90,FALSE,TRUE,[SYNTHETIC]
+SKU-011,Tea Club Darjeeling Black Monthly,Subscription,100,649,155,55,90,12.98,336.02,51.8,16.2,subscription,Daily Premium Tea Drinker,30,TRUE,FALSE,[SYNTHETIC]
+SKU-012,Tea Club Darjeeling Green Monthly,Subscription,100,699,155,55,90,13.98,385.02,55.1,17.5,subscription,Health/Wellness Consumer,30,TRUE,FALSE,[SYNTHETIC]

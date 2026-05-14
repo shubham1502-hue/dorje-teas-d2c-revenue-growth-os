@@ -4,6 +4,18 @@
 > Public-information and synthetic-data proof of work.
 > No internal Dorje data was used at any point.
 
+## Start here
+
+| Question | Answer |
+|---|---|
+| What this is | A public-safe D2C revenue operating system for turning revenue, channel, product, and retention signals into a weekly founder cadence. |
+| Who it is for | Founders, Founder's Office, Growth Ops, Revenue Ops, and D2C operators. |
+| Problem it solves | A founder can see what to scale, fix, kill, investigate, or unblock without confusing campaign activity with revenue progress. |
+| Open first | `EXECUTIVE_SUMMARY.md`, then `07_founder_review_system/weekly_revenue_review_memo.md`. |
+| Non-technical start | Read the executive summary, weekly memo, and `03_dashboard_blueprints/founder_dashboard_spec.md`. No code is needed for the first review. |
+| Technical start | Inspect `04_data_model/sample_orders.csv` and run the notebooks in `05_python_analysis/` against the synthetic data. |
+| CTA | Use the weekly memo and decision rules to run one D2C revenue review. |
+
 ## 30-Second Read
 
 I built this as a public-information and synthetic-data proof of work for a Founder's Office / Revenue Ops role at Dorje Teas.

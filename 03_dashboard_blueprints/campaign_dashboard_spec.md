@@ -1,4 +1,4 @@
-# Campaign Dashboard Spec — Dorje Teas
+# Campaign Dashboard Spec  -  Dorje Teas
 
 > Defines the weekly campaign performance dashboard used by Growth / Performance operator.
 > Covers Google Ads (primary) with Meta structure where applicable.
@@ -18,7 +18,7 @@ It is not a vanity metrics board. CTR and impressions matter only insofar as the
 
 ---
 
-### View 1 — Campaign Efficiency Summary
+### View 1  -  Campaign Efficiency Summary
 
 The primary weekly view. Every active campaign, ranked by Contribution ROAS descending.
 
@@ -26,12 +26,12 @@ All example values and thresholds in this dashboard spec are illustrative [SYNTH
 
 | Campaign | Objective | Spend | Impressions | CTR | CPC | Sessions | CVR | Orders | Revenue | CAC | ROAS | CM | Contribution ROAS | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| First Flush — Branded Search | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
-| Darjeeling Tea — Non-Brand Search | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Hold |
-| Tea Gifts — Shopping | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Hold |
-| Premium Tea — Retargeting | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
-| Meta — Prospecting (New Audiences) | Awareness/Conv | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Fix |
-| Meta — Retargeting (ATC + Visitors) | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
+| First Flush  -  Branded Search | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
+| Darjeeling Tea  -  Non-Brand Search | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Hold |
+| Tea Gifts  -  Shopping | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Hold |
+| Premium Tea  -  Retargeting | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
+| Meta  -  Prospecting (New Audiences) | Awareness/Conv | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Fix |
+| Meta  -  Retargeting (ATC + Visitors) | Conversion | ₹ | # | % | ₹ | # | % | # | ₹ | ₹ | x | ₹ | x | Scale |
 | **Total** | | **₹** | | | | | | **#** | **₹** | **₹** | **x** | **₹** | **x** | |
 
 **Contribution Margin per campaign = Revenue − (COGS + Packaging + Shipping + Gateway Fee) − Campaign Spend**
@@ -47,30 +47,30 @@ All example values and thresholds in this dashboard spec are illustrative [SYNTH
 
 ---
 
-### View 2 — Funnel by Campaign
+### View 2  -  Funnel by Campaign
 
 Diagnoses where each campaign loses the buyer. Not all CVR problems are the same problem.
 
 | Campaign | Sessions | → Product Page | → Add-to-Cart | → Checkout | → Purchase | Overall CVR | Drop-Off Stage |
 |---|---|---|---|---|---|---|---|
-| First Flush Search | # | % | % | % | % | % | — |
+| First Flush Search | # | % | % | % | % | % |  -  |
 | Non-Brand Search | # | % | % | % | % | % | ATC → Checkout |
 | Meta Prospecting | # | % | % | % | % | % | Product Page → ATC |
-| Retargeting | # | % | % | % | % | % | — |
+| Retargeting | # | % | % | % | % | % |  -  |
 
 **How to read this view:**
 
 - If the drop is at Product Page → ATC: trust, clarity, or price framing problem on the product page
 - If the drop is at ATC → Checkout: cart friction, shipping cost surprise, or low urgency
 - If the drop is at Checkout → Purchase: payment friction, delivery concern, or final-price remorse
-- If the drop is consistent across all stages: traffic quality issue — wrong audience for all stages
+- If the drop is consistent across all stages: traffic quality issue  -  wrong audience for all stages
 
 **Operator annotation:**
 > [Which campaign has the worst funnel leak this week? What stage? What is being done about it?]
 
 ---
 
-### View 3 — Creative Performance (Google Ads RSA / Meta Ad Level)
+### View 3  -  Creative Performance (Google Ads RSA / Meta Ad Level)
 
 Tracks creative fatigue and identifies highest-performing messaging angles.
 
@@ -79,8 +79,8 @@ Tracks creative fatigue and identifies highest-performing messaging angles.
 | Ad Group | Headline / Description | Impressions | CTR | CVR | Status |
 |---|---|---|---|---|---|
 | First Flush Darjeeling | "Estate-grown First Flush Darjeeling" | # | % | % | Best performer |
-| First Flush | "₹X per cup of exceptional Darjeeling" | # | % | % | Test — strong CTR |
-| First Flush | "Picked at Selim Hill — shipped to your door" | # | % | % | Weak — low CTR |
+| First Flush | "₹X per cup of exceptional Darjeeling" | # | % | % | Test  -  strong CTR |
+| First Flush | "Picked at Selim Hill  -  shipped to your door" | # | % | % | Weak  -  low CTR |
 | Original Darjeeling Chai | "Original Darjeeling Chai brewed in Darjeeling" | # | % | % | Strong |
 | Chai | "Premium Chai. Direct from the Estate." | # | % | % | Moderate |
 
@@ -88,9 +88,9 @@ Tracks creative fatigue and identifies highest-performing messaging angles.
 
 | Ad Set | Creative Description | Spend | CPM | CTR | CPC | CVR | CAC | Status |
 |---|---|---|---|---|---|---|---|---|
-| Prospecting | Estate origin video — 15s | ₹ | ₹ | % | ₹ | % | ₹ | Active |
+| Prospecting | Estate origin video  -  15s | ₹ | ₹ | % | ₹ | % | ₹ | Active |
 | Prospecting | Price-per-cup static image | ₹ | ₹ | % | ₹ | % | ₹ | Fatiguing |
-| Retargeting | Product carousel — visited pages | ₹ | ₹ | % | ₹ | % | ₹ | Active |
+| Retargeting | Product carousel  -  visited pages | ₹ | ₹ | % | ₹ | % | ₹ | Active |
 
 **Creative fatigue signal:** CTR declining >20% WoW on stable impressions → refresh creative.
 
@@ -107,11 +107,11 @@ Tracks creative fatigue and identifies highest-performing messaging angles.
 
 ---
 
-### View 4 — Search Intent Analysis (Google Ads)
+### View 4  -  Search Intent Analysis (Google Ads)
 
 Identifies whether search traffic is high-intent (Darjeeling-specific) or low-intent (generic tea queries).
 
-**Search term report — top 20 queries by spend this week:**
+**Search term report  -  top 20 queries by spend this week:**
 
 | Search Term | Intent Level | Clicks | CTR | CPC | CVR | Orders | Status |
 |---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Identifies whether search traffic is high-intent (Darjeeling-specific) or low-in
 **Intent classification:**
 - High: estate-specific, flush-specific, origin-specific, or brand-specific searches
 - Medium: category-level searches with purchase intent signals
-- Low: informational, recipe, or generic health queries — typically low CVR, wasted CPC spend
+- Low: informational, recipe, or generic health queries  -  typically low CVR, wasted CPC spend
 
 **Action:** Add consistently low-CVR, low-intent queries to the negative keyword list. Review weekly.
 
@@ -145,16 +145,16 @@ Identifies whether search traffic is high-intent (Darjeeling-specific) or low-in
 
 ---
 
-### View 5 — Landing Page Performance by Campaign
+### View 5  -  Landing Page Performance by Campaign
 
 Confirms whether campaign traffic is reaching the right page and converting on it.
 
 | Campaign | Landing Page URL | Sessions | Bounce Rate | ATC Rate | CVR | Revenue | Status |
 |---|---|---|---|---|---|---|---|
 | First Flush Search | /products/first-flush-2026 | # | % | % | % | ₹ | Healthy |
-| Non-Brand Darjeeling | /collections/darjeeling | # | % | % | % | ₹ | Watch — generic page |
+| Non-Brand Darjeeling | /collections/darjeeling | # | % | % | % | ₹ | Watch  -  generic page |
 | Chai Search | /products/original-chai | # | % | % | % | ₹ | Healthy |
-| Meta Prospecting | Homepage | # | % | % | % | ₹ | Act — wrong page |
+| Meta Prospecting | Homepage | # | % | % | % | ₹ | Act  -  wrong page |
 | Wellness Search | /products/green-tea | # | % | % | % | ₹ | Watch |
 | Gift Campaign | /collections/gift-boxes | # | % | % | % | ₹ | Healthy |
 
@@ -169,7 +169,7 @@ Confirms whether campaign traffic is reaching the right page and converting on i
 
 ---
 
-### View 6 — New vs. Returning Customer Revenue by Channel
+### View 6  -  New vs. Returning Customer Revenue by Channel
 
 Shows whether each channel is primarily acquiring new customers or re-engaging existing ones.
 
@@ -182,8 +182,8 @@ Shows whether each channel is primarily acquiring new customers or re-engaging e
 | Organic / Direct | # | ₹ | # | ₹ | 40% / 60% |
 
 **Why this matters:**
-- Paid channels should primarily drive new customers. If a paid prospecting campaign is generating mostly returning customer orders, it may be retargeting existing customers unnecessarily (wasted spend — they would have returned anyway)
-- Email and WhatsApp should be almost entirely returning customers. If they are driving significant new customer orders, check attribution — a new customer who clicked an email before the paid click may be mis-attributed
+- Paid channels should primarily drive new customers. If a paid prospecting campaign is generating mostly returning customer orders, it may be retargeting existing customers unnecessarily (wasted spend  -  they would have returned anyway)
+- Email and WhatsApp should be almost entirely returning customers. If they are driving significant new customer orders, check attribution  -  a new customer who clicked an email before the paid click may be mis-attributed
 - Retargeting channels should show a high returning split by design
 
 ---

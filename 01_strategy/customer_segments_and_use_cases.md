@@ -1,4 +1,4 @@
-# Customer Segments and Use Cases — Dorje Teas
+# Customer Segments and Use Cases  -  Dorje Teas
 
 > Segment-level operating logic for acquisition, conversion, retention, and revenue review.
 > Based on public brand positioning and category analysis. No internal Dorje customer data used.
@@ -15,7 +15,7 @@ The operating system should track, acquire, and retain each segment differently.
 
 ## Segment Map
 
-### Segment 1 — The Daily Premium Tea Drinker
+### Segment 1  -  The Daily Premium Tea Drinker
 
 **Who they are:**
 Urban, educated, 28–45, drinks tea daily, has moved away from commodity tea bags, is willing to pay more for quality but needs habitual replenishment, not seasonal discovery.
@@ -56,7 +56,7 @@ Price increase or out-of-stock event breaks the habit. This segment is loyal to 
 
 ---
 
-### Segment 2 — The Darjeeling Loyalist
+### Segment 2  -  The Darjeeling Loyalist
 
 **Who they are:**
 40–60, Bengali or Himalayan-region connection, childhood memory of Darjeeling tea, very specific about origin, flush, and estate, compares Dorje to what their family has always bought from physical Darjeeling sources, may have visited Darjeeling personally.
@@ -64,22 +64,22 @@ Price increase or out-of-stock event breaks the habit. This segment is loyal to 
 **Why they choose Dorje:**
 - Selim Hill estate is specific, verifiable, and traceable
 - Organic certification aligns with their quality bar
-- Whole leaf, direct from estate — removes the doubt about blending or stale stock
+- Whole leaf, direct from estate  -  removes the doubt about blending or stale stock
 
 **Primary products:**
 - First Flush (seasonal, highest priority for this segment)
-- Second Flush (muscatel character — this segment knows what muscatel means)
+- Second Flush (muscatel character  -  this segment knows what muscatel means)
 - Green Tea (Darjeeling green, not generic green tea)
 
 **Acquisition channel:**
 - Search intent ("Selim Hill tea," "First Flush Darjeeling," "estate grown Darjeeling tea online")
-- Word of mouth — this segment talks about tea
+- Word of mouth  -  this segment talks about tea
 - Content: harvest updates, estate stories, flush notes
 
 **Conversion trigger:**
 - Estate provenance proof (Selim Hill, 1871, location, altitude, certification)
 - Flush specificity (First Flush Darjeeling, picking date, tasting notes)
-- No blending, no middlemen — direct from garden
+- No blending, no middlemen  -  direct from garden
 - Founder or estate story
 
 **Retention mechanism:**
@@ -99,10 +99,10 @@ If First Flush sells out or quality is inconsistent, this segment leaves loudly.
 
 ---
 
-### Segment 3 — The Gift Buyer
+### Segment 3  -  The Gift Buyer
 
 **Who they are:**
-25–50, purchasing for someone else — festival gifting, corporate gifting, thank-you gifts, wedding favors, housewarming. May not drink premium tea themselves. Prioritizes presentation, story, and the experience of opening the gift.
+25–50, purchasing for someone else  -  festival gifting, corporate gifting, thank-you gifts, wedding favors, housewarming. May not drink premium tea themselves. Prioritizes presentation, story, and the experience of opening the gift.
 
 **Why they choose Dorje:**
 - Premium story makes the gift feel meaningful, not generic
@@ -131,7 +131,7 @@ If First Flush sells out or quality is inconsistent, this segment leaves loudly.
 - Personalisation option if available
 
 **Retention mechanism (different from other segments):**
-- Post-gift self-purchase prompt: "you gifted Dorje — here is the same for yourself"
+- Post-gift self-purchase prompt: "you gifted Dorje  -  here is the same for yourself"
 - Gift receiver introduction email (if email capture exists in gifting flow)
 - Next gifting window reminder (Diwali → Christmas → Next Diwali)
 
@@ -147,7 +147,7 @@ Gift Buyer customers acquired through heavy seasonal discounting will not return
 
 ---
 
-### Segment 4 — The Health/Wellness Consumer
+### Segment 4  -  The Health/Wellness Consumer
 
 **Who they are:**
 25–40, urban, fitness-adjacent, researching "healthier alternatives to coffee," "antioxidant tea," "caffeine without crash," "clean ingredients." May not know Darjeeling specifically. Attracted to the organic certification, clean sourcing, and natural product story.
@@ -192,10 +192,10 @@ This segment is the most price-sensitive and the most easily poached by competin
 
 ---
 
-### Segment 5 — The Climate/Story-Led Buyer
+### Segment 5  -  The Climate/Story-Led Buyer
 
 **Who they are:**
-28–45, educated, urban, values-aligned consumer. Reads about sustainability, conscious consumption, and regenerative economics. Connected to the Alt Carbon and Darjeeling revival narrative. This is not a mass segment — it is a loyalty-and-advocacy segment.
+28–45, educated, urban, values-aligned consumer. Reads about sustainability, conscious consumption, and regenerative economics. Connected to the Alt Carbon and Darjeeling revival narrative. This is not a mass segment  -  it is a loyalty-and-advocacy segment.
 
 **Why they choose Dorje:**
 - Selim Hill Collective: community welfare, fair wages, organic since early 2000s, Rainforest certification
@@ -210,9 +210,9 @@ This segment is the most price-sensitive and the most easily poached by competin
 
 **Acquisition channel:**
 - Content: estate stories, harvest updates, community and soil narratives
-- Newsletter or email — this segment reads
+- Newsletter or email  -  this segment reads
 - Podcast or long-form content featuring Alt Carbon, Darjeeling, or regenerative agriculture
-- Word of mouth — this is Dorje's most likely referral segment
+- Word of mouth  -  this is Dorje's most likely referral segment
 
 **Conversion trigger:**
 - Selim Hill story (history, altitude, community, certification)
@@ -252,7 +252,7 @@ If the narrative is vague or feels like marketing copy rather than genuine estat
 ## Cross-Segment Operating Rules
 
 1. **Segment all post-purchase flows.** A Gift Buyer receiving a daily replenishment nudge is a waste and a friction event.
-2. **Do not push subscription before segment-appropriate trust is built.** Darjeeling Loyalist and Climate/Story-Led Buyer segments will subscribe. Daily Premium Tea Drinker segments will subscribe after the second purchase. Gift Buyer segments rarely subscribe — follow up on self-purchase first.
+2. **Do not push subscription before segment-appropriate trust is built.** Darjeeling Loyalist and Climate/Story-Led Buyer segments will subscribe. Daily Premium Tea Drinker segments will subscribe after the second purchase. Gift Buyer segments rarely subscribe  -  follow up on self-purchase first.
 3. **First Flush launch should prioritize Darjeeling Loyalist and Climate/Story-Led Buyer segments.** These two segments have the highest first-flush purchase intent and the highest post-purchase advocacy.
 4. **Health/Wellness Consumer campaigns need separate landing pages.** A wellness search landing on the Dorje homepage with estate origin above the fold will under-convert. The Health/Wellness Consumer needs benefits, format, and clean sourcing above the fold.
 5. **Gift Buyer AOV should not be compared against Daily Premium Tea Drinker AOV.** Average blended AOV hides the real economics of each segment.

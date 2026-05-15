@@ -1,4 +1,4 @@
-# Growth Bets Prioritization — Dorje Teas
+# Growth Bets Prioritization  -  Dorje Teas
 
 > Founder-facing prioritization of D2C growth initiatives for the next 6 months.
 > Based on category analysis and the product-ladder framework. No internal Dorje data used.
@@ -27,7 +27,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ## The Growth Bets
 
-### Bet 1 — Post-Purchase Retention Flows (Email + WhatsApp)
+### Bet 1  -  Post-Purchase Retention Flows (Email + WhatsApp)
 
 **Description:** Build Day 7 / Day 21 / Day 30 / Day 45 automated flows for each key product type (Chai, First Flush, Green Tea, Gift Box). Segment by product purchased and new vs. returning status.
 
@@ -46,7 +46,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 2 — First Flush Darjeeling Dedicated Landing Page and Campaign
+### Bet 2  -  First Flush Darjeeling Dedicated Landing Page and Campaign
 
 **Description:** Build a standalone First Flush Darjeeling landing page with harvest story, estate origin, tasting notes, price-per-cup framing, and a bundle offer. Run a targeted search campaign against high-intent Darjeeling and First Flush queries.
 
@@ -59,13 +59,13 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 | Impact | 5 | Highest-margin, highest-conviction acquisition window of the year |
 | Confidence | 4 | High-intent seasonal search traffic responds well to specific landing pages; tested category logic |
 | Speed | 3 | Requires landing page build + campaign setup (3–4 weeks if starting now) |
-| Complexity | 3 | Moderate — landing page, copy, campaign, and measurement all required |
+| Complexity | 3 | Moderate  -  landing page, copy, campaign, and measurement all required |
 
 **Priority Score: 180** ← Do in Month 1–2 alongside retention flows.
 
 ---
 
-### Bet 3 — Contribution Margin Dashboard (Weekly Visibility)
+### Bet 3  -  Contribution Margin Dashboard (Weekly Visibility)
 
 **Description:** Build a Google Sheets contribution margin view that connects orders, channel spend, COGS, packaging, shipping, and gateway fees into a weekly per-order and per-channel CM number.
 
@@ -76,7 +76,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 | Dimension | Score | Reasoning |
 |---|---|---|
 | Impact | 4 | Prevents margin leakage at scale; every subsequent spending decision improves |
-| Confidence | 5 | Operational certainty — this is instrumentation, not an experiment |
+| Confidence | 5 | Operational certainty  -  this is instrumentation, not an experiment |
 | Speed | 5 | Can be built in 1 week with data access |
 | Complexity | 5 | Google Sheets; no engineering required |
 
@@ -84,7 +84,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 4 — Product Page Conversion Testing
+### Bet 4  -  Product Page Conversion Testing
 
 **Description:** Test asset sequencing on 2–3 key product pages (First Flush, Chai, Gift Box). Hypothesis: benefit → price-per-cup → estate proof → reviews → brewing guide → subscription prompt outperforms the current layout.
 
@@ -103,7 +103,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 5 — Tea Club Subscription Push (Post-Second-Purchase)
+### Bet 5  -  Tea Club Subscription Push (Post-Second-Purchase)
 
 **Description:** Trigger a subscription offer specifically after a customer's second purchase on any product. Frame as "never run out" + mild benefit (free shipping on subscription, or small quantity bonus).
 
@@ -122,7 +122,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 6 — Gift Buyer to Self-Purchaser Conversion Flow
+### Bet 6  -  Gift Buyer to Self-Purchaser Conversion Flow
 
 **Description:** After a gift box purchase, trigger a Day 14 email to the buyer with a "keep some for yourself" message and a soft self-purchase prompt. If gift receiver email is capturable, send a separate introduction email to the receiver.
 
@@ -141,7 +141,7 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 7 — First-Time Buyer Sampler Bundle
+### Bet 7  -  First-Time Buyer Sampler Bundle
 
 **Description:** Create a curated entry bundle (e.g., First Flush 50g + Chai 50g + Green Tea 50g) priced as a discovery pack for first-time buyers. Purpose: reduce first-purchase risk, increase AOV, and expose buyers to multiple rungs of the product ladder in one order.
 
@@ -154,15 +154,15 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 | Impact | 3 | Improves first-purchase CVR and AOV; may improve repeat rate via product discovery |
 | Confidence | 3 | Sampler bundles work in premium consumables; Dorje's product mix supports it |
 | Speed | 3 | Requires bundle setup in Shopify + landing page (3–4 weeks) |
-| Complexity | 3 | Moderate — packaging and pricing configuration needed |
+| Complexity | 3 | Moderate  -  packaging and pricing configuration needed |
 
 **Priority Score: 81**
 
 ---
 
-### Bet 8 — Winback Campaign for 60+ Day Dormant Customers
+### Bet 8  -  Winback Campaign for 60+ Day Dormant Customers
 
-**Description:** Identify customers who bought once and have not returned in 60+ days. Send a 2-email winback sequence: (1) "We noticed you haven't been back — here's what's new at Selim Hill" and (2) "Last chance — a small offer to bring you back."
+**Description:** Identify customers who bought once and have not returned in 60+ days. Send a 2-email winback sequence: (1) "We noticed you haven't been back  -  here's what's new at Selim Hill" and (2) "Last chance  -  a small offer to bring you back."
 
 **Why it matters:** Winback campaigns on customers who already know the brand convert at a higher rate than cold acquisition at a fraction of the CAC.
 
@@ -179,9 +179,9 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 9 — Harvest Update Pre-Launch Email for Darjeeling Loyalist Segment
+### Bet 9  -  Harvest Update Pre-Launch Email for Darjeeling Loyalist Segment
 
-**Description:** Before First Flush availability, send a harvest anticipation email to past First Flush buyers and Tea Club subscribers. "2026 First Flush is being picked at Selim Hill — here is what to expect." Include a pre-order or early access option.
+**Description:** Before First Flush availability, send a harvest anticipation email to past First Flush buyers and Tea Club subscribers. "2026 First Flush is being picked at Selim Hill  -  here is what to expect." Include a pre-order or early access option.
 
 **Why it matters:** The Darjeeling Loyalist segment buys on anticipation, not just availability. Pre-launch communication creates demand before the product page goes live and converts the highest-intent segment first.
 
@@ -198,11 +198,11 @@ This is a **triage tool**, not a roadmap. The founder should review this quarter
 
 ---
 
-### Bet 10 — Google Search Campaign Audit and Cleanup
+### Bet 10  -  Google Search Campaign Audit and Cleanup
 
 **Description:** Audit existing Google Search campaigns for keyword intent match, landing page relevance, and wasted spend. Pause low-intent or broad keywords. Build tighter ad groups around high-intent queries (First Flush Darjeeling, buy Darjeeling tea online, estate Darjeeling tea).
 
-**Why it matters:** Most early D2C Google Ads accounts have structural inefficiency — broad match keywords, generic landing pages, and untracked conversion paths. An audit often reveals 20–30% of spend that can be reallocated or eliminated.
+**Why it matters:** Most early D2C Google Ads accounts have structural inefficiency  -  broad match keywords, generic landing pages, and untracked conversion paths. An audit often reveals 20–30% of spend that can be reallocated or eliminated.
 
 **What it requires:** Google Ads account access, 30–60 day keyword and search term report, landing page CVR data by campaign, restructuring plan.
 
@@ -223,11 +223,11 @@ Priority scores are illustrative [SYNTHETIC] scoring outputs, not Dorje internal
 
 | Rank | Growth Bet | Priority Score | When to Execute |
 |---|---|---|---|
-| 1 | Contribution Margin Dashboard | 500 | Week 1 — table stakes |
+| 1 | Contribution Margin Dashboard | 500 | Week 1  -  table stakes |
 | 2 | Harvest Update Pre-Launch Email | 500 | Week 1 if First Flush season is approaching |
-| 3 | Post-Purchase Retention Flows | 400 | Month 1 — highest ROI lever |
+| 3 | Post-Purchase Retention Flows | 400 | Month 1  -  highest ROI lever |
 | 4 | Tea Club Subscription Push (post-2nd purchase) | 320 | Month 1–2 |
-| 5 | Winback Campaign (60+ day dormant) | 300 | Month 1 — quick win |
+| 5 | Winback Campaign (60+ day dormant) | 300 | Month 1  -  quick win |
 | 6 | First Flush Darjeeling Landing Page + Campaign | 180 | Month 1–2 alongside retention |
 | 7 | Gift Buyer to Self-Purchaser Flow | 192 | Month 2 |
 | 8 | Google Search Campaign Audit | 192 | Month 1–2 |

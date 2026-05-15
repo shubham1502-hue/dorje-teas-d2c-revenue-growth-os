@@ -1,4 +1,4 @@
-# Founder Dashboard Spec — Dorje Teas
+# Founder Dashboard Spec  -  Dorje Teas
 
 > Specification for the top-level weekly dashboard reviewed by the founder every Monday.
 > Designed for decision velocity, not data completeness.
@@ -17,17 +17,17 @@ Every block answers one of five questions:
 4. Are customers coming back?
 5. Is the business profitable per order?
 
-If a block does not answer one of these five questions, it does not belong on the founder dashboard. Detailed breakdowns live in the campaign, retention, or margin dashboards — not here.
+If a block does not answer one of these five questions, it does not belong on the founder dashboard. Detailed breakdowns live in the campaign, retention, or margin dashboards  -  not here.
 
 ---
 
-## Dashboard Structure — 10 Blocks
+## Dashboard Structure  -  10 Blocks
 
 Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 1 — Revenue Snapshot
+### Block 1  -  Revenue Snapshot
 
 **Purpose:** One-line answer to "how did we do this week?"
 
@@ -44,9 +44,9 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 2 — Orders and AOV
+### Block 2  -  Orders and AOV
 
-**Purpose:** Separate volume and value — they move for different reasons.
+**Purpose:** Separate volume and value  -  they move for different reasons.
 
 | Metric | This Week | Last Week | WoW Change |
 |---|---|---|---|
@@ -64,7 +64,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 3 — Paid Acquisition Summary
+### Block 3  -  Paid Acquisition Summary
 
 **Purpose:** Channel efficiency at a glance. Details live in the campaign dashboard.
 
@@ -74,7 +74,7 @@ Readable in under 10 minutes. Decisions in under 30.
 | Google Shopping | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
 | Meta Prospecting | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
 | Meta Retargeting | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
-| **Total Paid** | **₹** | **₹** | **x** | **₹** | **x** | — |
+| **Total Paid** | **₹** | **₹** | **x** | **₹** | **x** |  -  |
 
 **Founder reads this to answer:** Which channel gets more budget next week?
 
@@ -82,7 +82,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 4 — Funnel Conversion
+### Block 4  -  Funnel Conversion
 
 **Purpose:** Locate the primary conversion leak this week.
 
@@ -93,16 +93,16 @@ Readable in under 10 minutes. Decisions in under 30.
 | Checkout → Purchase | % | % | pp | Y/N |
 | Overall CVR | % | % | pp | Y/N |
 
-**Operator diagnosis (required — not optional):**
+**Operator diagnosis (required  -  not optional):**
 > [Specific: which stage dropped, on which product page, likely cause, proposed test. Example: "ATC rate on Green Tea dropped 2pp this week. Wellness search traffic landing on estate-origin page rather than health-benefit page. Proposing segment-specific landing page variant test starting Tuesday."]
 
 **Founder reads this to answer:** Is there a leak, and does the operator know where it is and what to do?
 
 ---
 
-### Block 5 — Product and Offer Performance
+### Block 5  -  Product and Offer Performance
 
-**Purpose:** Revenue and order mix by product — reveals mix shifts and campaign-to-product mismatches.
+**Purpose:** Revenue and order mix by product  -  reveals mix shifts and campaign-to-product mismatches.
 
 | Product | Orders | Revenue | AOV | vs. Last Week |
 |---|---|---|---|---|
@@ -121,7 +121,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 6 — Repeat Purchase and Retention
+### Block 6  -  Repeat Purchase and Retention
 
 **Purpose:** Signal the health of Dorje's customer retention loop.
 
@@ -140,11 +140,11 @@ Readable in under 10 minutes. Decisions in under 30.
 
 **Founder reads this to answer:** Is the retention loop working? Are subscribers renewing faster than they are churning?
 
-**Flag:** Subscription churn exceeds new subscribers in any week → active base is shrinking. Investigate immediately — churn reason audit before next renewal cycle.
+**Flag:** Subscription churn exceeds new subscribers in any week → active base is shrinking. Investigate immediately  -  churn reason audit before next renewal cycle.
 
 ---
 
-### Block 7 — Active Experiments
+### Block 7  -  Active Experiments
 
 **Purpose:** Keep the founder sighted on tests and pending decisions.
 
@@ -162,7 +162,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 8 — Contribution Margin Summary
+### Block 8  -  Contribution Margin Summary
 
 **Purpose:** The single most important block. ROAS without CM is incomplete. This block is what prevents scaling a loss.
 
@@ -181,8 +181,8 @@ Readable in under 10 minutes. Decisions in under 30.
 
 **Conditional formatting:**
 - CM% ≥ 20%: green
-- CM% 10–19%: amber — watch
-- CM% < 10% or negative: red — immediate diagnosis required
+- CM% 10–19%: amber  -  watch
+- CM% < 10% or negative: red  -  immediate diagnosis required
 
 **Founder reads this to answer:** Are we making money per order this week, after every variable cost?
 
@@ -190,7 +190,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 9 — Top 3 Issues This Week
+### Block 9  -  Top 3 Issues This Week
 
 **Purpose:** Force prioritization. Only three. Stated specifically.
 
@@ -207,7 +207,7 @@ Readable in under 10 minutes. Decisions in under 30.
 
 ---
 
-### Block 10 — Decisions Needed from Founder
+### Block 10  -  Decisions Needed from Founder
 
 **Purpose:** The most important block. Separates founder-level decisions from operator decisions.
 
@@ -216,10 +216,10 @@ Readable in under 10 minutes. Decisions in under 30.
 | [Decision topic] | [Why this needs founder input] | [A / B / C] | [Recommended option + brief rationale] | [Date] |
 
 **Examples of correct founder decisions:**
-- Scale Google Search spend by ₹30,000/week — Contribution ROAS is 2.1x, CAC is within LTV threshold
-- Launch corporate gifting campaign before Diwali window — requires budget and team prioritization call
-- Raise free-shipping threshold from ₹500 to ₹700 — improves CM but may reduce CVR; founder judgment on trade-off
-- Introduce quarterly subscription tier — product and pricing decision
+- Scale Google Search spend by ₹30,000/week  -  Contribution ROAS is 2.1x, CAC is within LTV threshold
+- Launch corporate gifting campaign before Diwali window  -  requires budget and team prioritization call
+- Raise free-shipping threshold from ₹500 to ₹700  -  improves CM but may reduce CVR; founder judgment on trade-off
+- Introduce quarterly subscription tier  -  product and pricing decision
 
 **Examples of what should NOT be in Block 10:**
 - Which creative to test next (operator decision)
@@ -233,10 +233,10 @@ Readable in under 10 minutes. Decisions in under 30.
 ## Dashboard Operating Rules
 
 1. **Every red cell requires a written annotation.** A red number without an explanation is an unresolved alert, not a data point.
-2. **Block 9 is written before the tables.** Synthesis comes before data retrieval — this prevents the operator from hiding behind the numbers.
+2. **Block 9 is written before the tables.** Synthesis comes before data retrieval  -  this prevents the operator from hiding behind the numbers.
 3. **No metric appears without a comparison.** Every number shows vs. last week, vs. target, or vs. 4-week average.
-4. **Dashboard is complete within 90 minutes.** If it takes longer, the data pipeline is broken — fix the source, not the dashboard.
-5. **Block 10 is the final checkpoint before the founder meeting.** If there is nothing in Block 10, the meeting agenda should reflect that — shorter review, more focus on experiments and next week.
+4. **Dashboard is complete within 90 minutes.** If it takes longer, the data pipeline is broken  -  fix the source, not the dashboard.
+5. **Block 10 is the final checkpoint before the founder meeting.** If there is nothing in Block 10, the meeting agenda should reflect that  -  shorter review, more focus on experiments and next week.
 
 ---
 

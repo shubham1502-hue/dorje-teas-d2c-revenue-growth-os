@@ -1,4 +1,4 @@
-# Dorje Teas — 6-Month D2C Revenue Growth Thesis
+# Dorje Teas  -  6-Month D2C Revenue Growth Thesis
 
 > Strategic operating sequence for a Founder's Office / Revenue Ops operator.
 > Based on public information and category analysis. No internal Dorje data used.
@@ -10,13 +10,13 @@
 
 Dorje is not a standard D2C brand where more spend reliably produces more revenue. It operates in a category with several compounding constraints:
 
-- **Trust gap before first purchase** — premium, estate-grown, unfamiliar to most buyers. Education is required, not optional.
-- **Natural product seasonality** — First Flush and Second Flush are harvest-timed windows. Missing them is not recoverable in-year.
-- **Multiple buyer types** — Daily Premium Tea Drinker, Darjeeling Loyalist, Gift Buyer, Health/Wellness Consumer, and Climate/Story-Led Buyer. These segments have different acquisition channels, conversion triggers, and retention behavior.
-- **Subscription potential** — Tea Club is a predictable-revenue lever, but subscription pushed too early creates churn. It must be earned, not forced.
-- **Margin sensitivity** — premium packaging, direct-from-Darjeeling logistics, and small average order sizes make contribution margin per order thin before scale.
+- **Trust gap before first purchase**  -  premium, estate-grown, unfamiliar to most buyers. Education is required, not optional.
+- **Natural product seasonality**  -  First Flush and Second Flush are harvest-timed windows. Missing them is not recoverable in-year.
+- **Multiple buyer types**  -  Daily Premium Tea Drinker, Darjeeling Loyalist, Gift Buyer, Health/Wellness Consumer, and Climate/Story-Led Buyer. These segments have different acquisition channels, conversion triggers, and retention behavior.
+- **Subscription potential**  -  Tea Club is a predictable-revenue lever, but subscription pushed too early creates churn. It must be earned, not forced.
+- **Margin sensitivity**  -  premium packaging, direct-from-Darjeeling logistics, and small average order sizes make contribution margin per order thin before scale.
 
-The 6-month operating thesis must hold acquisition, conversion, retention, gifting, and margin together — not optimize each in isolation.
+The 6-month operating thesis must hold acquisition, conversion, retention, gifting, and margin together  -  not optimize each in isolation.
 
 ---
 
@@ -98,11 +98,11 @@ That shift changes everything:
 **Objective:** Turn first-time buyers into profitable returning customers before spending more to acquire new ones.
 
 **What gets built:**
-- Day 7 post-purchase: brewing education email or WhatsApp — how to brew the specific tea they bought, tasting notes, what to expect
-- Day 21: replenishment nudge — "your first 100g pack is likely running low" with a direct re-order link
-- Day 30: cross-sell — "you bought First Flush, you might love Second Flush" or "ready for something everyday? Try the Chai"
-- Day 45: subscription prompt — "you've reordered once. Would you like us to send it automatically?" — only triggered after demonstrated repeat behavior
-- Gift Buyer track (separate): Gift Buyer receives a different Day 7 message — "if you loved what you gifted, here is the same for yourself"
+- Day 7 post-purchase: brewing education email or WhatsApp  -  how to brew the specific tea they bought, tasting notes, what to expect
+- Day 21: replenishment nudge  -  "your first 100g pack is likely running low" with a direct re-order link
+- Day 30: cross-sell  -  "you bought First Flush, you might love Second Flush" or "ready for something everyday? Try the Chai"
+- Day 45: subscription prompt  -  "you've reordered once. Would you like us to send it automatically?"  -  only triggered after demonstrated repeat behavior
+- Gift Buyer track (separate): Gift Buyer receives a different Day 7 message  -  "if you loved what you gifted, here is the same for yourself"
 - Winback trigger: anyone who has not engaged after Day 60 enters a winback segment
 
 **Metrics being moved:**
@@ -129,7 +129,7 @@ Gifting buyers are not the same as daily tea buyers. They have higher AOV, lower
 *Gifting track:*
 - Gift box dedicated landing page: estate story, curated contents, premium packaging proof, delivery promise
 - Corporate gifting inquiry path: form or WhatsApp entry point for bulk orders
-- Post-Gift Buyer follow-up: "you sent Dorje as a gift — here is the same for yourself" — self-purchase conversion attempt
+- Post-Gift Buyer follow-up: "you sent Dorje as a gift  -  here is the same for yourself"  -  self-purchase conversion attempt
 - Gift receiver path (if email capture is possible via gifting flow): introduce the receiver to Dorje and offer a first-self-purchase discount
 
 *First Flush track (if still in season):*
@@ -185,7 +185,7 @@ This thesis is a **public-information and category-logic based operating hypothe
 It does not:
 - Use internal Dorje revenue, order, or campaign data
 - Claim that Dorje has specific CAC, ROAS, repeat rate, or margin problems
-- Guarantee that these phases will produce specific revenue outcomes
+- Promise that these phases will produce specific revenue outcomes
 - Replace the need for real data-driven iteration once internal access is available
 
-It is designed to show how an operator would **structure the first 6 months** of a Founder's Office revenue engagement — with clear objectives, measurable outputs, and decision points at each phase.
+It is designed to show how an operator would **structure the first 6 months** of a Founder's Office revenue engagement  -  with clear objectives, measurable outputs, and decision points at each phase.

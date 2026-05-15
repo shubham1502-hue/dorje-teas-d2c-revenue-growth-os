@@ -1,4 +1,4 @@
-# North Star Metrics Tree — Dorje Teas
+# North Star Metrics Tree  -  Dorje Teas
 
 > Revenue metric hierarchy for a premium Darjeeling D2C brand.
 > Every metric in this tree connects upward to the north star and downward to a specific decision.
@@ -20,7 +20,7 @@ This north star has three components that must be true simultaneously:
 |---|---|
 | Contribution-margin-positive | Revenue after product cost, packaging, shipping, discounts, payment fees, and paid media spend is positive |
 | Repeat | A growing share of revenue comes from returning customers, not just first-time buyers |
-| D2C | Revenue generated on the owned channel — not marketplace, not distributor — where Dorje controls the data, the experience, and the margin |
+| D2C | Revenue generated on the owned channel  -  not marketplace, not distributor  -  where Dorje controls the data, the experience, and the margin |
 
 If any one component is missing, the growth model has a structural problem:
 - High revenue, negative contribution margin → scaling a loss
@@ -135,17 +135,17 @@ contribution-margin-positive repeat D2C revenue
 
 ## Four Questions the Tree Answers Every Week
 
-### Q1 — Is revenue growing from the right source?
+### Q1  -  Is revenue growing from the right source?
 
 Check: **Returning Customer Revenue ÷ Total Revenue (weekly trend)**
 
-If new customer revenue grows but returning customer revenue is flat, Dorje is on a treadmill — constantly re-acquiring at full CAC without building a compounding customer base.
+If new customer revenue grows but returning customer revenue is flat, Dorje is on a treadmill  -  constantly re-acquiring at full CAC without building a compounding customer base.
 
 A premium brand with strong repeat behavior should trend toward returning customers representing 40–50%+ of revenue within 6–12 months of a cohort's first purchase.
 
 ---
 
-### Q2 — Is acquisition efficient?
+### Q2  -  Is acquisition efficient?
 
 Check: **CAC by channel → Contribution ROAS by channel**
 
@@ -157,19 +157,19 @@ If contribution ROAS is below 1.0, the channel is losing money on every order, r
 
 ---
 
-### Q3 — Where is the funnel leaking?
+### Q3  -  Where is the funnel leaking?
 
 Check: **Sessions → Add-to-Cart → Checkout → Purchase** (by stage, by product, by channel)
 
-A drop at the product page (high sessions, low add-to-cart) signals a trust, price perception, or clarity problem — often fixable with asset sequencing or price-per-cup framing.
+A drop at the product page (high sessions, low add-to-cart) signals a trust, price perception, or clarity problem  -  often fixable with asset sequencing or price-per-cup framing.
 
-A drop at checkout (high add-to-cart, low purchase completion) signals friction — payment options, delivery concern, or second-guessing on price. Different diagnosis, different fix.
+A drop at checkout (high add-to-cart, low purchase completion) signals friction  -  payment options, delivery concern, or second-guessing on price. Different diagnosis, different fix.
 
 Do not treat all CVR problems as the same problem.
 
 ---
 
-### Q4 — Is the business building compounding revenue?
+### Q4  -  Is the business building compounding revenue?
 
 Check: **Repeat Purchase Rate → Subscription Attach Rate → LTV:CAC**
 
@@ -178,7 +178,7 @@ A compounding brand has:
 - Subscription attach rate above 10–15% for daily replenishment SKUs
 - LTV:CAC above 2x at 12 months
 
-A non-compounding brand has flat repeat rate, low subscription attach, and an LTV:CAC below 1.5x — meaning it costs more than 8 months of margin to recover each customer acquired.
+A non-compounding brand has flat repeat rate, low subscription attach, and an LTV:CAC below 1.5x  -  meaning it costs more than 8 months of margin to recover each customer acquired.
 
 ---
 

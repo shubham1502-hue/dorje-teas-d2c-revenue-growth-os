@@ -1,4 +1,4 @@
-# Retention Dashboard Spec — Dorje Teas
+# Retention Dashboard Spec  -  Dorje Teas
 
 > Defines the monthly retention dashboard used by the Retention / CRM operator.
 > Covers repeat purchase, cohort behavior, subscription health, and lifecycle flow performance.
@@ -10,7 +10,7 @@
 
 The retention dashboard answers: **are customers who bought from Dorje coming back, and are the lifecycle systems working to bring them back profitably?**
 
-For a premium Darjeeling tea brand, retention is not optional — it is the business model. At a CAC typical of premium D2C brands, the first purchase often does not recover acquisition cost. The second and third purchases are where the economics work.
+For a premium Darjeeling tea brand, retention is not optional  -  it is the business model. At a CAC typical of premium D2C brands, the first purchase often does not recover acquisition cost. The second and third purchases are where the economics work.
 
 ---
 
@@ -18,7 +18,7 @@ For a premium Darjeeling tea brand, retention is not optional — it is the busi
 
 ---
 
-### View 1 — Retention Health Summary (Monthly Snapshot)
+### View 1  -  Retention Health Summary (Monthly Snapshot)
 
 A single-page summary updated at the start of each month.
 
@@ -37,15 +37,15 @@ All example values and targets in this dashboard spec are illustrative [SYNTHETI
 
 **Conditional formatting:**
 - Healthy: at or above target
-- Watch: within 20% of target — watch
-- Act: more than 20% below target — act
+- Watch: within 20% of target  -  watch
+- Act: more than 20% below target  -  act
 
 **Operator annotation:**
 > [What is the retention story this month? What is working? What needs attention?]
 
 ---
 
-### View 2 — Monthly Cohort Table
+### View 2  -  Monthly Cohort Table
 
 Tracks repeat purchase behavior for each acquisition month's customer cohort.
 
@@ -53,9 +53,9 @@ Tracks repeat purchase behavior for each acquisition month's customer cohort.
 |---|---|---|---|---|---|---|---|---|---|
 | Jan 2025 [SYNTHETIC] | 180 | ₹1,44,000 | 22% | ₹63,360 | 18% | ₹46,080 | 15% | ₹32,400 | ₹1,56,420 |
 | Feb 2025 [SYNTHETIC] | 145 | ₹1,16,000 | 24% | ₹55,680 | 19% | ₹41,760 | 14% | ₹28,420 | ₹1,25,860 |
-| Mar 2025 [SYNTHETIC] | 210 | ₹1,68,000 | 26% | ₹87,360 | 21% | ₹64,680 | — | — | — |
-| Apr 2025 [SYNTHETIC] | 195 | ₹1,56,000 | 28% | ₹87,360 | — | — | — | — | — |
-| May 2025 [SYNTHETIC] | 230 | ₹1,84,000 | — | — | — | — | — | — | — |
+| Mar 2025 [SYNTHETIC] | 210 | ₹1,68,000 | 26% | ₹87,360 | 21% | ₹64,680 |  -  |  -  |  -  |
+| Apr 2025 [SYNTHETIC] | 195 | ₹1,56,000 | 28% | ₹87,360 |  -  |  -  |  -  |  -  |  -  |
+| May 2025 [SYNTHETIC] | 230 | ₹1,84,000 |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
 
 **How to read this table:**
 - Month 0 = the acquisition month (first purchase revenue)
@@ -66,29 +66,29 @@ Tracks repeat purchase behavior for each acquisition month's customer cohort.
 **Signals to watch:**
 - Is the Month 1 repeat % improving as lifecycle flows mature? It should, as flows improve.
 - Is any cohort's LTV declining vs. prior cohorts? Investigate product mix and post-purchase experience changes for that period.
-- Is the March cohort (First Flush season) showing higher 3-month LTV? First Flush buyers are hypothesized to have stronger retention — validate this with cohort data.
+- Is the March cohort (First Flush season) showing higher 3-month LTV? First Flush buyers are hypothesized to have stronger retention  -  validate this with cohort data.
 
 ---
 
-### View 3 — Time to Second Purchase Distribution
+### View 3  -  Time to Second Purchase Distribution
 
-Shows how quickly first-time buyers return — by product purchased and by cohort month.
+Shows how quickly first-time buyers return  -  by product purchased and by cohort month.
 
 **Median time to second purchase by first product:**
 
 | First Product Purchased | Median Days to 2nd Purchase | Target | Status |
 |---|---|---|---|
-| Original Darjeeling Chai | — days [SYNTHETIC] | <25 days | Healthy / Watch / Act |
-| Pyramid Teabags | — days [SYNTHETIC] | <30 days | Healthy / Watch / Act |
-| First Flush | — days [SYNTHETIC] | <45 days | Healthy / Watch / Act |
-| Second Flush | — days [SYNTHETIC] | <35 days | Healthy / Watch / Act |
-| Green Tea | — days [SYNTHETIC] | <40 days | Healthy / Watch / Act |
-| Gift Box | — days [SYNTHETIC] | <60 days (to self-purchase) | Healthy / Watch / Act |
+| Original Darjeeling Chai |  -  days [SYNTHETIC] | <25 days | Healthy / Watch / Act |
+| Pyramid Teabags |  -  days [SYNTHETIC] | <30 days | Healthy / Watch / Act |
+| First Flush |  -  days [SYNTHETIC] | <45 days | Healthy / Watch / Act |
+| Second Flush |  -  days [SYNTHETIC] | <35 days | Healthy / Watch / Act |
+| Green Tea |  -  days [SYNTHETIC] | <40 days | Healthy / Watch / Act |
+| Gift Box |  -  days [SYNTHETIC] | <60 days (to self-purchase) | Healthy / Watch / Act |
 
 **Why targets differ by product:**
-- Chai is consumed daily — 100g lasts ~20–25 days at daily use. A 25-day return cycle means the lifecycle flow is working.
-- First Flush is a seasonal product — replenishment is limited by harvest availability. Target is a Second Flush or Tea Club conversion, not same-product repurchase.
-- Gift boxes have a different target — the "second purchase" goal is a self-purchase, which requires a longer window and a different lifecycle message.
+- Chai is consumed daily  -  100g lasts ~20–25 days at daily use. A 25-day return cycle means the lifecycle flow is working.
+- First Flush is a seasonal product  -  replenishment is limited by harvest availability. Target is a Second Flush or Tea Club conversion, not same-product repurchase.
+- Gift boxes have a different target  -  the "second purchase" goal is a self-purchase, which requires a longer window and a different lifecycle message.
 
 **Distribution histogram (for the Google Sheets build):**
 
@@ -108,7 +108,7 @@ If the Day 22–30 bucket has the highest concentration, the Day 21 replenishmen
 
 ---
 
-### View 4 — Subscription Health
+### View 4  -  Subscription Health
 
 Tracks Tea Club and product-level subscription performance.
 
@@ -117,10 +117,10 @@ Tracks Tea Club and product-level subscription performance.
 | Metric | This Month | Last Month | Change | Target |
 |---|---|---|---|---|
 | Total Active Subscribers | # | # | % | ↑ MoM |
-| New Subscribers (MoM) | # | # | % | — |
+| New Subscribers (MoM) | # | # | % |  -  |
 | Subscribers Lost (churned) | # | # | % | <12% churn rate |
 | Net Subscriber Change | # | # | % | Positive |
-| Subscription Revenue | ₹ | ₹ | % | — |
+| Subscription Revenue | ₹ | ₹ | % |  -  |
 | Subscription Renewal Rate | % | % | pp | >80% |
 | Subscription AOV | ₹ | ₹ | % | ≥ one-time AOV |
 | Subscription CM% | % | % | pp | > one-time CM% |
@@ -144,14 +144,14 @@ Tracks Tea Club and product-level subscription performance.
 | Price / value concern | # | % | Review subscription offer vs. one-time |
 | Forgot / unexpected charge | # | % | Improve pre-renewal nudge copy |
 | Switching to a different product | # | % | Offer SKU swap instead of cancel |
-| Temporary — pausing | # | % | Offer pause option (reduce churn) |
+| Temporary  -  pausing | # | % | Offer pause option (reduce churn) |
 | Other | # | % | Review individually |
 
-**Operator action rule:** If any single churn reason exceeds 30% of monthly churns, it is a systemic issue — not a one-off. Fix the system before the next renewal cycle.
+**Operator action rule:** If any single churn reason exceeds 30% of monthly churns, it is a systemic issue  -  not a one-off. Fix the system before the next renewal cycle.
 
 ---
 
-### View 5 — Lifecycle Flow Performance
+### View 5  -  Lifecycle Flow Performance
 
 Tracks email and WhatsApp flow performance across the customer lifecycle.
 
@@ -161,8 +161,8 @@ Tracks email and WhatsApp flow performance across the customer lifecycle.
 | Day 21 Replenishment Nudge | Post first purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
 | Day 30 Cross-Sell | Post first purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
 | Day 45 Subscription Prompt | Post second purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
-| Gift Buyer — Day 14 Self-Purchase | Post gift box purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
-| Winback — Day 60 Dormant | 60+ days no purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
+| Gift Buyer  -  Day 14 Self-Purchase | Post gift box purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
+| Winback  -  Day 60 Dormant | 60+ days no purchase | # | % | % | % | ₹ | Healthy / Watch / Act |
 | Pre-Renewal Nudge | 5 days before subscription renewal | # | % | % | % | ₹ | Healthy / Watch / Act |
 | First Flush Harvest Update | Pre-season, past First Flush buyers | # | % | % | % | ₹ | Healthy / Watch / Act |
 
@@ -180,7 +180,7 @@ Tracks email and WhatsApp flow performance across the customer lifecycle.
 
 ---
 
-### View 6 — Segment-Level Retention Comparison
+### View 6  -  Segment-Level Retention Comparison
 
 Compares repeat purchase rate across buyer segments to identify which segments retain well and which need work.
 
@@ -195,8 +195,8 @@ Compares repeat purchase rate across buyer segments to identify which segments r
 **What to look for:**
 - Darjeeling Loyalist segment should show the highest 3-month repeat % and Tea Club attach rate
 - Daily Premium Tea Drinker segment should show the fastest time to second purchase and highest Chai subscription attach
-- Gift Buyer segment will show the lowest same-product repeat % — track self-purchase conversion, not replenishment
-- Health/Wellness Consumer segment may have slower repeat cycles — 45-day intervals are expected for Green Tea
+- Gift Buyer segment will show the lowest same-product repeat %  -  track self-purchase conversion, not replenishment
+- Health/Wellness Consumer segment may have slower repeat cycles  -  45-day intervals are expected for Green Tea
 
 ---
 

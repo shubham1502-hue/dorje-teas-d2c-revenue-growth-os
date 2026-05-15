@@ -9,7 +9,7 @@
 
 This is a **public-information and synthetic-data revenue operating system simulation** for Dorje Teas.
 
-It is designed to show how a Founder's Office / Revenue Ops operator would structure, track, diagnose, and improve D2C revenue for a premium Darjeeling tea brand — using the frameworks, metrics, and operating cadences appropriate for this category.
+It is designed to show how a Founder's Office / Revenue Ops operator would structure, track, diagnose, and improve D2C revenue for a premium Darjeeling tea brand  -  using the frameworks, metrics, and operating cadences appropriate for this category.
 
 It is **not** a performance audit of Dorje Teas. It is not based on any internal Dorje data.
 
@@ -104,7 +104,7 @@ These are starting assumptions only. A real implementation would use Dorje's act
 
 **For a founder reviewing this:**
 - Treat every figure as illustrative, not descriptive of your actual business
-- Use the frameworks, templates, and decision rules — they are designed to work with your real data once plugged in
+- Use the frameworks, templates, and decision rules  -  they are designed to work with your real data once plugged in
 - The weekly review template, experiment tracker, and decision rules are immediately usable
 
 **For a hiring manager reviewing this:**

@@ -1,8 +1,8 @@
-# Decision Rules — Dorje Teas
+# Decision Rules  -  Dorje Teas
 
 > Converts metric movements into operator decisions.
 > These are diagnostic frameworks, not algorithms. Every rule requires judgment before action.
-> Specific to a premium Darjeeling D2C brand — not generic D2C advice.
+> Specific to a premium Darjeeling D2C brand  -  not generic D2C advice.
 > No internal Dorje data used.
 
 ---
@@ -20,31 +20,31 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-## Section 1 — Acquisition and Campaign Decision Rules
+## Section 1  -  Acquisition and Campaign Decision Rules
 
 ---
 
-### Rule A1 — CTR Declining, CVR Stable
+### Rule A1  -  CTR Declining, CVR Stable
 
 **What you observe:** CTR drops >15% week-over-week. CVR on the landing page holds steady. Sessions decline.
 
-**Diagnosis:** The problem is likely in the ad creative or the audience — not the landing page or offer. Clicks that do arrive are converting at the same rate, which means the funnel is intact. Fewer people are engaging with the ad itself.
+**Diagnosis:** The problem is likely in the ad creative or the audience  -  not the landing page or offer. Clicks that do arrive are converting at the same rate, which means the funnel is intact. Fewer people are engaging with the ad itself.
 
 **Question before acting:** Is the audience new and less relevant, or has the existing audience seen this creative too many times?
 
 **Action options:**
-- If the audience is unchanged: creative fatigue. Refresh the creative with a new angle — estate story, First Flush harvest, price-per-cup framing, or social proof.
+- If the audience is unchanged: creative fatigue. Refresh the creative with a new angle  -  estate story, First Flush harvest, price-per-cup framing, or social proof.
 - If a new audience was recently added: audience-message mismatch. Review whether the new audience is the right fit for this creative.
 
 **Do not:** Pause the campaign before testing a new creative. A campaign with strong CVR but weak CTR is fixable with creative. Pausing it loses the conversion infrastructure that is working.
 
 ---
 
-### Rule A2 — CTR Stable, CVR Declining
+### Rule A2  -  CTR Stable, CVR Declining
 
 **What you observe:** CTR holds or improves. Sessions are healthy. But purchase conversion rate drops.
 
-**Diagnosis:** The problem is on the landing page or in the offer — not the ad. People are clicking with intent but not buying. This is a trust, price, clarity, or offer friction problem.
+**Diagnosis:** The problem is on the landing page or in the offer  -  not the ad. People are clicking with intent but not buying. This is a trust, price, clarity, or offer friction problem.
 
 **Question before acting:** Did anything change on the product page, offer, price, or shipping terms this week?
 
@@ -58,7 +58,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-### Rule A3 — ROAS Positive, Contribution Margin Negative
+### Rule A3  -  ROAS Positive, Contribution Margin Negative
 
 **What you observe:** ROAS appears healthy (e.g., 3x). But contribution margin calculation shows the channel is losing money after variable costs.
 
@@ -68,7 +68,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 **Action options:**
 - If COGS and packaging are the issue: review product pricing or bundle structure.
-- If shipping cost is the issue: review free-shipping threshold — is it set too low? Is a specific region driving high shipping cost?
+- If shipping cost is the issue: review free-shipping threshold  -  is it set too low? Is a specific region driving high shipping cost?
 - If discounting is the issue: channel may be over-reliant on discount codes.
 - If the math is marginal: hold spend at current level and fix the variable cost structure before scaling.
 
@@ -76,11 +76,11 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-### Rule A4 — CAC Exceeds Break-Even CAC
+### Rule A4  -  CAC Exceeds Break-Even CAC
 
 **What you observe:** CAC on a channel exceeds the gross margin per first order (the break-even CAC). The first purchase is not profitable.
 
-**Diagnosis:** This is acceptable only if the LTV:CAC ratio is strong (>2x) and the repeat purchase data supports that assumption. For a premium tea brand with natural replenishment behavior, a first-order loss can be recovered on the second and third orders — but only if the repeat purchase rate is high enough and fast enough.
+**Diagnosis:** This is acceptable only if the LTV:CAC ratio is strong (>2x) and the repeat purchase data supports that assumption. For a premium tea brand with natural replenishment behavior, a first-order loss can be recovered on the second and third orders  -  but only if the repeat purchase rate is high enough and fast enough.
 
 **Question before acting:** What is the repeat purchase rate for customers acquired from this channel? How many orders does it take to recover the CAC?
 
@@ -93,7 +93,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-### Rule A5 — One Channel Has Significantly Better Contribution ROAS Than Others
+### Rule A5  -  One Channel Has Significantly Better Contribution ROAS Than Others
 
 **What you observe:** One channel (e.g., Google Search branded + Darjeeling-specific terms) shows contribution ROAS of 2.5x. Other channels show contribution ROAS of 0.8–1.2x.
 
@@ -111,11 +111,11 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-## Section 2 — Conversion Decision Rules
+## Section 2  -  Conversion Decision Rules
 
 ---
 
-### Rule C1 — Add-to-Cart Rate Below Expected for High-Traffic Product Page
+### Rule C1  -  Add-to-Cart Rate Below Expected for High-Traffic Product Page
 
 **What you observe:** A product page (e.g., First Flush, Chai) is receiving significant sessions but add-to-cart rate is below 4%.
 
@@ -128,19 +128,19 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 - Move estate proof higher: Selim Hill, 1871, organic certification, direct from garden.
 - Add a reviews module above the fold.
 - Test a product-specific tasting note (muscatel, floral, fresh-mown hay) near the product description.
-- Check if the page has a brewing guide — it reduces purchase anxiety for first-time buyers.
+- Check if the page has a brewing guide  -  it reduces purchase anxiety for first-time buyers.
 
 **Do not:** Discount the product to increase add-to-cart rate. This solves the symptom and destroys the premium positioning.
 
 ---
 
-### Rule C2 — High Add-to-Cart, Low Checkout Completion
+### Rule C2  -  High Add-to-Cart, Low Checkout Completion
 
 **What you observe:** Add-to-cart rate is healthy (>5%), but checkout initiation-to-purchase rate is low (<50%).
 
 **Diagnosis:** The visitor wanted the product but something at the checkout stage created friction or second-guessing. Common causes: unexpected shipping cost, limited payment options, delivery timeline concern, or price remorse at the payment screen.
 
-**Question before acting:** At what point in checkout are most abandonments happening — shipping entry, payment page, or review page?
+**Question before acting:** At what point in checkout are most abandonments happening  -  shipping entry, payment page, or review page?
 
 **Action options:**
 - If shipping cost reveal is the friction: review the free-shipping threshold and whether it is communicated clearly before checkout.
@@ -148,15 +148,15 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 - If delivery timeline is the concern: make the freshness and direct-from-Darjeeling delivery promise visible at checkout, not just on product pages.
 - Run an abandoned cart recovery flow (email or WhatsApp within 1 hour of abandonment).
 
-**Do not:** Assume all cart abandonment is price-related. A user who added a ₹800 item to the cart has already accepted the price — friction at checkout is usually process, not pricing.
+**Do not:** Assume all cart abandonment is price-related. A user who added a ₹800 item to the cart has already accepted the price  -  friction at checkout is usually process, not pricing.
 
 ---
 
-### Rule C3 — Conversion Rate Different Across Product Categories
+### Rule C3  -  Conversion Rate Different Across Product Categories
 
 **What you observe:** First Flush CVR is 2.8%. Chai CVR is 4.5%. Gift box CVR is 1.2%.
 
-**Diagnosis:** Different products attract different buyer intent and require different conversion support. This is not a problem — it is expected. The question is whether each product is optimized for its own buyer, not whether all products have the same CVR.
+**Diagnosis:** Different products attract different buyer intent and require different conversion support. This is not a problem  -  it is expected. The question is whether each product is optimized for its own buyer, not whether all products have the same CVR.
 
 **Question before acting:** Is each product's conversion rate appropriate for its segment? Is the gift box CVR low because the landing page is wrong for the Gift Buyer, or because gift buying is inherently lower-CVR (they want to explore before committing)?
 
@@ -170,11 +170,11 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-## Section 3 — Retention Decision Rules
+## Section 3  -  Retention Decision Rules
 
 ---
 
-### Rule R1 — Repeat Purchase Rate Flat After First Purchase Cohort
+### Rule R1  -  Repeat Purchase Rate Flat After First Purchase Cohort
 
 **What you observe:** Month 1 cohort (customers who bought in Month 1) is not returning in Month 2 at an expected rate. Repeat purchase rate is below 20% at Day 60.
 
@@ -186,13 +186,13 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 - Audit the post-purchase email/WhatsApp flows: did they fire? Did they land in inbox?
 - Check the replenishment cycle assumption: for 100g at 1–2 cups per day, the pack lasts 40–50 days. The Day 21 reminder may be too early for some SKUs.
 - Segment the cohort by product purchased: Chai buyers should return faster than First Flush buyers (higher frequency vs. seasonal).
-- Run a direct "how was your first order?" survey email — qualitative signal before scaling fix.
+- Run a direct "how was your first order?" survey email  -  qualitative signal before scaling fix.
 
 **Do not:** Assume low repeat rate means the product has a problem before ruling out flow failures or cycle timing.
 
 ---
 
-### Rule R2 — Subscription Churn Spike
+### Rule R2  -  Subscription Churn Spike
 
 **What you observe:** Subscription churn rate exceeds 15% in a given month, or a sudden spike appears from a previously stable base.
 
@@ -202,7 +202,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 **Action options:**
 - If over-supply: offer a pause option prominently before cancellation. Allow frequency adjustment (monthly → quarterly).
-- If product fatigue: offer a rotation — subscriber gets a different SKU each cycle, curated by the estate.
+- If product fatigue: offer a rotation  -  subscriber gets a different SKU each cycle, curated by the estate.
 - If delivery problem: cross-reference with logistics data and address fulfillment issue.
 - If "forgot I subscribed": improve subscription confirmation and pre-renewal nudge copy.
 
@@ -210,17 +210,17 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-### Rule R3 — Gift Buyer Has Zero Repeat Purchase Signal at Day 45
+### Rule R3  -  Gift Buyer Has Zero Repeat Purchase Signal at Day 45
 
 **What you observe:** A customer who purchased a gift box has not made a self-purchase within 45 days of the gift purchase.
 
-**Diagnosis:** Gift Buyer customers are a distinct segment. They may have no personal interest in Darjeeling tea — they bought it for someone else. Without a specific conversion attempt, they will never become self-purchasers by accident.
+**Diagnosis:** Gift Buyer customers are a distinct segment. They may have no personal interest in Darjeeling tea  -  they bought it for someone else. Without a specific conversion attempt, they will never become self-purchasers by accident.
 
 **Question before acting:** Did this customer receive the Day 14 "keep some for yourself" email? What was the click and conversion rate on that email?
 
 **Action options:**
 - If the email did not go out: fix the segment filter to identify gift box purchasers and trigger the flow.
-- If the email went out with <1% conversion: test a different message angle — less "buy for yourself," more "discover what you gifted."
+- If the email went out with <1% conversion: test a different message angle  -  less "buy for yourself," more "discover what you gifted."
 - At Day 45: trigger a final gift-buyer winback with a small first-self-purchase offer.
 - If no conversion at Day 60: move to general re-engagement cadence.
 
@@ -228,15 +228,15 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-## Section 4 — Margin Decision Rules
+## Section 4  -  Margin Decision Rules
 
 ---
 
-### Rule M1 — Discount Rate Rising Without a Campaign Explanation
+### Rule M1  -  Discount Rate Rising Without a Campaign Explanation
 
 **What you observe:** Discount rate on full-price products rises to >15% over 3 weeks without a planned promotional campaign.
 
-**Diagnosis:** Discount codes from a previous campaign may still be in circulation. Or a third-party coupon site may be scraping and publishing Dorje promo codes. Or the team has started applying manual discounts at checkout to convert hesitant buyers — a bad habit that trains buyers to always ask.
+**Diagnosis:** Discount codes from a previous campaign may still be in circulation. Or a third-party coupon site may be scraping and publishing Dorje promo codes. Or the team has started applying manual discounts at checkout to convert hesitant buyers  -  a bad habit that trains buyers to always ask.
 
 **Question before acting:** Where are the discount codes being applied? Is there a specific code driving the spike?
 
@@ -250,7 +250,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-### Rule M2 — Shipping Cost Per Order Rising
+### Rule M2  -  Shipping Cost Per Order Rising
 
 **What you observe:** Shipping cost per order increases week-over-week, reducing contribution margin even when revenue holds.
 
@@ -260,7 +260,7 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 **Action options:**
 - Map orders by region and compare shipping cost per region to prior periods.
-- Review free-shipping threshold — if too low, a large number of orders may fall just below the threshold and ship at low AOV, squeezing margin.
+- Review free-shipping threshold  -  if too low, a large number of orders may fall just below the threshold and ship at low AOV, squeezing margin.
 - Evaluate whether raising the free-shipping threshold slightly would improve CM without significant CVR impact.
 - Flag to finance if the logistics rate card has changed.
 
@@ -268,11 +268,11 @@ A dashboard full of metrics is not useful unless it tells you what to do next. T
 
 ---
 
-## Section 5 — Experiment Decision Rules
+## Section 5  -  Experiment Decision Rules
 
 ---
 
-### Rule E1 — When to Scale an Experiment
+### Rule E1  -  When to Scale an Experiment
 
 Scale when all of the following are true:
 - The primary metric moved in the expected direction
@@ -282,16 +282,16 @@ Scale when all of the following are true:
 
 ---
 
-### Rule E2 — When to Fix an Experiment
+### Rule E2  -  When to Fix an Experiment
 
 Fix (do not kill) when:
 - There is clear intent signal (sessions, CTR, add-to-cart) but conversion did not complete
 - The hypothesis was directionally correct but execution was off (wrong copy, wrong CTA, wrong timing)
-- The metric moved, but not enough — the idea has potential but needs refinement
+- The metric moved, but not enough  -  the idea has potential but needs refinement
 
 ---
 
-### Rule E3 — When to Kill an Experiment
+### Rule E3  -  When to Kill an Experiment
 
 Kill when:
 - The metric did not move after 3 weeks of adequate traffic
@@ -301,7 +301,7 @@ Kill when:
 
 ---
 
-### Rule E4 — When Not to Decide
+### Rule E4  -  When Not to Decide
 
 Do not make a scale/fix/kill decision when:
 - The experiment has been running less than 2 weeks

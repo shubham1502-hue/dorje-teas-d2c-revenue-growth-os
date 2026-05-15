@@ -1,4 +1,4 @@
-# Data Dictionary — Dorje Teas Revenue OS
+# Data Dictionary  -  Dorje Teas Revenue OS
 
 > Defines every field used across the four synthetic data tables.
 > Every field has: definition, formula or source, example value, business use case.
@@ -16,7 +16,7 @@ If a field is in this dictionary but has never produced a decision, question whe
 
 ---
 
-## Section 1 — Order-Level Fields (sample_orders.csv)
+## Section 1  -  Order-Level Fields (sample_orders.csv)
 
 ---
 
@@ -56,7 +56,7 @@ Business use: Links multiple orders to the same customer for repeat purchase rat
 Definition: Whether the customer was placing their first-ever order ("new") or had ordered before ("returning").
 Source: Derived from Shopify customer order count at time of purchase.
 Values: `new` | `returning`
-Business use: Splits revenue into new customer revenue and returning customer revenue — the primary indicator of retention health. Never blend these in a weekly revenue review without showing the split.
+Business use: Splits revenue into new customer revenue and returning customer revenue  -  the primary indicator of retention health. Never blend these in a weekly revenue review without showing the split.
 
 ---
 
@@ -80,7 +80,7 @@ Business use: Revenue and margin analysis by product ladder rung. Critical for i
 Definition: The listed price of the product before any discounts are applied.
 Source: Shopify line item price.
 Example: ₹750
-Business use: Starting point for the contribution margin waterfall. Gross revenue is never the right number to use for profitability analysis — always use net_revenue.
+Business use: Starting point for the contribution margin waterfall. Gross revenue is never the right number to use for profitability analysis  -  always use net_revenue.
 
 ---
 
@@ -117,16 +117,16 @@ Business use: AOV and threshold analysis. If most orders are just below the thre
 ---
 
 **cogs** [SYNTHETIC]
-Definition: Product cost of goods sold — the cost of producing or sourcing the tea in this order.
-Source: [SYNTHETIC] — would come from finance/ops COGS records in real implementation.
+Definition: Product cost of goods sold  -  the cost of producing or sourcing the tea in this order.
+Source: [SYNTHETIC]  -  would come from finance/ops COGS records in real implementation.
 Example: ₹180 for First Flush 100g
 Business use: Primary input to gross margin calculation. COGS change on any SKU should trigger a margin review.
 
 ---
 
 **packaging_cost** [SYNTHETIC]
-Definition: Cost of packaging materials for this order — box, inner foil, label, and for gift orders, gift box and ribbon.
-Source: [SYNTHETIC] — would come from procurement records.
+Definition: Cost of packaging materials for this order  -  box, inner foil, label, and for gift orders, gift box and ribbon.
+Source: [SYNTHETIC]  -  would come from procurement records.
 Example: ₹55 (standard) | ₹130 (premium gift box)
 Business use: Often underestimated in D2C premium brands. Gift box packaging cost can be 2–3× standard and must be covered by gift box AOV premium.
 
@@ -134,7 +134,7 @@ Business use: Often underestimated in D2C premium brands. Gift box packaging cos
 
 **shipping_cost** [SYNTHETIC]
 Definition: The actual shipping cost Dorje pays to the logistics provider for this order, regardless of what the customer paid.
-Source: [SYNTHETIC] — would come from logistics provider rate card.
+Source: [SYNTHETIC]  -  would come from logistics provider rate card.
 Example: ₹90 (metro) | ₹130 (Tier 2/3 city)
 Business use: Real cost of fulfillment. The gap between shipping_charged (what customer paid) and shipping_cost (what Dorje paid) is a direct CM impact. For orders above the free-shipping threshold, Dorje absorbs the full shipping cost.
 
@@ -149,7 +149,7 @@ Business use: A small but consistent cost that compounds at volume. If gateway r
 ---
 
 **gross_margin**
-Definition: Revenue remaining after all direct product costs — COGS, packaging, shipping, and gateway fee — but before paid media spend.
+Definition: Revenue remaining after all direct product costs  -  COGS, packaging, shipping, and gateway fee  -  but before paid media spend.
 Formula: `net_revenue − cogs − packaging_cost − shipping_cost − gateway_fee`
 Example: ₹326.50 on a ₹675 net First Flush order
 Business use: The starting point for contribution margin. Gross margin tells you the product economics before any acquisition cost is applied.
@@ -166,7 +166,7 @@ Business use: Useful for comparing margin health across products. A product with
 
 **attributed_ad_spend** [SYNTHETIC]
 Definition: Estimated paid media cost attributed to this specific order, based on the channel that drove the session.
-Source: [SYNTHETIC] — in real implementation, would come from last-click attribution or modeled attribution from Google Ads / Meta Ads Manager.
+Source: [SYNTHETIC]  -  in real implementation, would come from last-click attribution or modeled attribution from Google Ads / Meta Ads Manager.
 Example: ₹280 for a Google Search order | ₹8 for an email-attributed order | ₹0 for organic
 Business use: The key variable that converts gross margin into contribution margin. If attributed_ad_spend exceeds gross_margin, the order is CM-negative regardless of ROAS.
 
@@ -199,7 +199,7 @@ Business use: Channel-level revenue, CAC, ROAS, and CM analysis. The most import
 **campaign_id**
 Definition: The specific campaign within the channel that drove this order.
 Source: UTM campaign parameter from GA4, linked to Shopify order.
-Example: `CMP-GS-002` (Google Search — First Flush Seasonal)
+Example: `CMP-GS-002` (Google Search  -  First Flush Seasonal)
 Business use: Campaign-level performance drill-down within a channel. When a channel's metrics shift, campaign_id tells you which specific campaign is driving the change.
 
 ---
@@ -220,13 +220,13 @@ Business use: Separate Gift Buyer lifecycle from Daily Premium Tea Drinker lifec
 
 ---
 
-## Section 2 — Campaign-Level Fields (sample_ad_spend.csv)
+## Section 2  -  Campaign-Level Fields (sample_ad_spend.csv)
 
 ---
 
 **spend**
 Definition: Total money paid to the ad platform (Google Ads or Meta) for this campaign in this week.
-Source: [SYNTHETIC] — would come from platform billing export.
+Source: [SYNTHETIC]  -  would come from platform billing export.
 Example: ₹3,200 (weekly Google Search brand campaign spend)
 Business use: The denominator for ROAS and CAC. All efficiency metrics start here.
 
@@ -284,7 +284,7 @@ Business use: The primary acquisition efficiency metric. Must be compared agains
 Definition: Revenue generated per rupee of ad spend.
 Formula: `revenue ÷ spend`
 Example: 2.8x
-Business use: Common campaign efficiency metric. Misleading in isolation for premium D2C — does not account for COGS, packaging, or shipping. Always pair with contribution_roas.
+Business use: Common campaign efficiency metric. Misleading in isolation for premium D2C  -  does not account for COGS, packaging, or shipping. Always pair with contribution_roas.
 
 ---
 
@@ -296,7 +296,7 @@ Business use: The honest ROAS. A campaign with 3x ROAS but 0.8x contribution ROA
 
 ---
 
-## Section 3 — Cohort Fields (sample_customer_cohorts.csv)
+## Section 3  -  Cohort Fields (sample_customer_cohorts.csv)
 
 ---
 
@@ -304,14 +304,14 @@ Business use: The honest ROAS. A campaign with 3x ROAS but 0.8x contribution ROA
 Definition: The month in which the customers in this cohort made their first purchase.
 Format: YYYY-MM
 Example: `2025-04`
-Business use: Groups customers by acquisition month for retention curve analysis. Allows comparison of how different cohorts behave over time — the core of LTV analysis.
+Business use: Groups customers by acquisition month for retention curve analysis. Allows comparison of how different cohorts behave over time  -  the core of LTV analysis.
 
 ---
 
 **m0_revenue / m0_avg_order_value**
 Definition: Total revenue and average order value from the cohort's first purchase month.
 Source: [SYNTHETIC]
-Business use: Baseline for the cohort. Higher M0 AOV does not always mean better cohort quality — festive Gift Buyer cohorts often have high M0 AOV but low repeat rates.
+Business use: Baseline for the cohort. Higher M0 AOV does not always mean better cohort quality  -  festive Gift Buyer cohorts often have high M0 AOV but low repeat rates.
 
 ---
 
@@ -340,7 +340,7 @@ Business use: Key signal of subscription health. Subscription attach should be m
 Definition: Total revenue per customer from M0 through M6, averaged across the cohort.
 Formula: `(m0_rev + m1_rev + ... + m6_rev) ÷ new_customers`
 Example: ₹1,104
-Business use: The LTV input for LTV:CAC calculation. A 6-month LTV of ₹1,100 with a CAC of ₹480 = LTV:CAC of 2.3x — above the minimum 2.0x threshold for sustainable growth.
+Business use: The LTV input for LTV:CAC calculation. A 6-month LTV of ₹1,100 with a CAC of ₹480 = LTV:CAC of 2.3x  -  above the minimum 2.0x threshold for sustainable growth.
 
 ---
 
@@ -352,20 +352,20 @@ Business use: The single most important metric for evaluating acquisition channe
 
 ---
 
-## Section 4 — Product Catalog Financial Fields (sample_product_catalog.csv)
+## Section 4  -  Product Catalog Financial Fields (sample_product_catalog.csv)
 
 ---
 
 **price** [SYNTHETIC]
 Definition: Public-facing SKU price used in the model.
-Source: [SYNTHETIC] — modeled from public catalog observations and category price bands.
+Source: [SYNTHETIC]  -  modeled from public catalog observations and category price bands.
 Business use: Input to product ladder, AOV, and gross margin estimates.
 
 ---
 
 **cogs / packaging_cost / shipping_cost_blended** [SYNTHETIC]
 Definition: Estimated SKU-level variable costs used for catalog economics.
-Source: [SYNTHETIC] — would come from finance, procurement, and logistics records in a live implementation.
+Source: [SYNTHETIC]  -  would come from finance, procurement, and logistics records in a live implementation.
 Business use: Inputs to gross_margin_est and break-even CAC estimates.
 
 ---

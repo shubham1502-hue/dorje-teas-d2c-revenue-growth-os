@@ -1,4 +1,4 @@
-# Executive Summary — Dorje Teas D2C Revenue Growth OS
+# Executive Summary  -  Dorje Teas D2C Revenue Growth OS
 
 > Operator memo. Written as if addressed to Dorje's founding team.
 > All figures are synthetic. No internal data was used.
@@ -91,9 +91,9 @@ Scaling paid acquisition without knowing contribution margin per channel leads t
 
 ## What the Founder Should Inspect Every Monday
 
-1. Did revenue grow week-over-week? What drove it — new customers, returning customers, or AOV?
+1. Did revenue grow week-over-week? What drove it  -  new customers, returning customers, or AOV?
 2. Which campaign had the best contribution-margin-positive performance?
-3. Where is the funnel leaking — traffic, product page, cart, or checkout?
+3. Where is the funnel leaking  -  traffic, product page, cart, or checkout?
 4. How many customers bought for the second time this week?
 5. Is any experiment ready for a scale, fix, or kill decision?
 

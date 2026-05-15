@@ -14,6 +14,8 @@
 | Open first | `EXECUTIVE_SUMMARY.md`, then `07_founder_review_system/weekly_revenue_review_memo.md`. |
 | Non-technical start | Read the executive summary, weekly memo, and `03_dashboard_blueprints/founder_dashboard_spec.md`. No code is needed for the first review. |
 | Technical start | Inspect `04_data_model/sample_orders.csv` and run the notebooks in `05_python_analysis/` against the synthetic data. |
+| Adapt this repo | Use `docs/how-to-fork-and-use.md` and the templates in `templates/` to replace the public-safe sample structure with your own operating context. |
+| Hiring or outreach review | Open `case-study/dorje-public-safe-revenue-os.md` for the proof-of-work case study. |
 | CTA | Use the weekly memo and decision rules to run one D2C revenue review. |
 
 ## 30-Second Read
@@ -22,7 +24,7 @@ I built this as a public-information and synthetic-data proof of work for a Foun
 
 The repo shows the weekly revenue system I would use to help a founder decide what to scale, fix, kill, investigate, or unblock across acquisition, CAC/ROAS, product page conversion, first purchase, repeat purchase, gifting, subscription/replenishment, and contribution margin.
 
-This is not a claim of internal Dorje data, actual Shopify data, actual ad account data, live ad account access, media buying ownership, D2C P&L ownership, or actual Dorje performance improvement. It is a demonstration of how I think, diagnose, and operate.
+This is not a claim of internal Dorje data, commerce-platform exports, ad platform exports, live ad account access, media buying ownership, D2C P&L ownership, or Dorje performance improvement. It is a demonstration of how I think, diagnose, and operate.
 
 If you are reviewing quickly, start here:
 
@@ -32,6 +34,8 @@ If you are reviewing quickly, start here:
 4. `07_founder_review_system/operating_cadence.md` - how the founder review runs.
 5. `02_metrics_os/decision_rules.md` - scale, fix, kill, investigate, or unblock logic.
 6. `05_python_analysis/campaign_efficiency_analysis.ipynb` - analytical proof against synthetic data.
+7. `docs/how-to-fork-and-use.md` - how to adapt this safely for another D2C company.
+8. `case-study/dorje-public-safe-revenue-os.md` - hiring and outreach case study.
 
 A founder does not need to read every file. These are the first-click paths.
 
@@ -102,9 +106,9 @@ Do not start with the notebooks. They prove the analysis runs, but the founder p
 This project does not use:
 
 - internal Dorje data
-- actual Shopify data
-- actual ad account data
-- actual revenue data
+- commerce-platform exports
+- ad platform exports
+- private revenue exports
 - actual customer cohort data
 - actual contribution margin data
 
@@ -127,6 +131,14 @@ dorje-teas-d2c-revenue-growth-os/
 ├── EXECUTIVE_SUMMARY.md               # One-page founder memo
 ├── ASSUMPTIONS_AND_BOUNDARIES.md      # Data honesty and project scope
 ├── PUBLIC_RESEARCH_NOTES.md           # Brand, category, and funnel observations
+├── docs/
+│   └── how-to-fork-and-use.md
+├── templates/
+│   ├── weekly-revenue-review-template.md
+│   ├── founder-decision-log.md
+│   └── day-1-data-request-checklist.md
+├── case-study/
+│   └── dorje-public-safe-revenue-os.md
 │
 ├── 01_strategy/
 │   ├── dorje_6_month_growth_thesis.md

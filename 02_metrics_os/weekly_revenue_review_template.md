@@ -1,9 +1,9 @@
-# Weekly Revenue Review Template — Dorje Teas
+# Weekly Revenue Review Template  -  Dorje Teas
 
 > Founder-facing weekly operating memo.
 > To be completed every Monday morning before the week begins.
 > All sections should be filled with real data once internal access is available.
-> Sample entries below are illustrative only — marked [SAMPLE].
+> Sample entries below are illustrative only  -  marked [SAMPLE].
 
 ---
 
@@ -21,22 +21,22 @@ If a section ends with only numbers and no action, the review has not done its j
 ---
 
 # WEEKLY REVENUE REVIEW
-**Week:** [Week number] — [Date range, e.g., 5 May to 11 May 2025]
+**Week:** [Week number]  -  [Date range, e.g., 5 May to 11 May 2025]
 **Prepared by:** [Name]
 **Reviewed with:** [Founder / Leadership]
 
 ---
 
-## Section 1 — What Changed This Week
+## Section 1  -  What Changed This Week
 
 > One paragraph, plain language. What was the most important thing that happened in revenue this week? Did something go well, break, or surprise us?
 
 [SAMPLE]:
-*This week, First Flush Darjeeling sessions were up 34% following the harvest announcement email sent to the Darjeeling Loyalist segment. Conversion rate on the First Flush Darjeeling product page held at 3.1%. However, Original Darjeeling Chai repeat purchase orders declined by 18% vs. the prior week — likely because the Day 21 replenishment reminder was not sent to the April 14–21 cohort due to a flow error. That cohort is now past its replenishment window. The most important action this week is resending a winback prompt to that cohort and fixing the automation trigger.*
+*This week, First Flush Darjeeling sessions were up 34% following the harvest announcement email sent to the Darjeeling Loyalist segment. Conversion rate on the First Flush Darjeeling product page held at 3.1%. However, Original Darjeeling Chai repeat purchase orders declined by 18% vs. the prior week  -  likely because the Day 21 replenishment reminder was not sent to the April 14–21 cohort due to a flow error. That cohort is now past its replenishment window. The most important action this week is resending a winback prompt to that cohort and fixing the automation trigger.*
 
 ---
 
-## Section 2 — Revenue Performance
+## Section 2  -  Revenue Performance
 
 | Metric | This Week | Last Week | 4-Week Avg | Change vs. LW |
 |---|---|---|---|---|
@@ -59,7 +59,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 3 — Acquisition Performance
+## Section 3  -  Acquisition Performance
 
 | Metric | This Week | Last Week | 4-Week Avg | Change vs. LW |
 |---|---|---|---|---|
@@ -82,15 +82,15 @@ If a section ends with only numbers and no action, the review has not done its j
 | Google Shopping | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
 | Meta Prospecting | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
 | Meta Retargeting | ₹ | ₹ | x | ₹ | x | Scale / Hold / Fix / Pause |
-| Email / WhatsApp | ₹ | ₹ | — | — | — | Scale / Hold / Fix / Pause |
-| Organic / Direct | — | ₹ | — | — | — | Monitor |
+| Email / WhatsApp | ₹ | ₹ |  -  |  -  |  -  | Scale / Hold / Fix / Pause |
+| Organic / Direct |  -  | ₹ |  -  |  -  |  -  | Monitor |
 
 **Acquisition decision or flag:**
 > [Which channel gets more budget next week? Which gets paused? What is the reason?]
 
 ---
 
-## Section 4 — Funnel Conversion
+## Section 4  -  Funnel Conversion
 
 | Funnel Stage | This Week | Last Week | Change | Diagnosis |
 |---|---|---|---|---|
@@ -112,7 +112,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 5 — Product and Offer Performance
+## Section 5  -  Product and Offer Performance
 
 | Product / Category | Orders | Revenue | AOV | CVR | Contribution Margin | vs. Last Week |
 |---|---|---|---|---|---|---|
@@ -133,7 +133,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 6 — Retention and Repeat Purchase
+## Section 6  -  Retention and Repeat Purchase
 
 | Metric | This Week / Month | Last Period | Change |
 |---|---|---|---|
@@ -156,7 +156,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 7 — Contribution Margin Summary
+## Section 7  -  Contribution Margin Summary
 
 | Source | Revenue | Variable Costs | Contribution Margin | CM % |
 |---|---|---|---|---|
@@ -180,7 +180,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 8 — Top 3 Issues This Week
+## Section 8  -  Top 3 Issues This Week
 
 > List the three most important problems, risks, or questions from this week's data. Be specific.
 
@@ -195,7 +195,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 9 — Decisions Needed from Founder
+## Section 9  -  Decisions Needed from Founder
 
 > List only the decisions that require founder input. Do not include decisions that can be made operationally.
 
@@ -208,7 +208,7 @@ If a section ends with only numbers and no action, the review has not done its j
 
 ---
 
-## Section 10 — Experiments This Week
+## Section 10  -  Experiments This Week
 
 | Experiment | Hypothesis | Metric | Start Date | End Date | Owner | Status |
 |---|---|---|---|---|---|---|
@@ -242,4 +242,4 @@ Before this memo is shared with the founder, confirm:
 - This template should be completed in 60–90 minutes using dashboard data
 - Sections 2 through 7 pull from the Google Sheets dashboard (see `03_dashboard_blueprints/google_sheets_dashboard_layout.md`)
 - Sections 8 through 10 require operator judgment, not just data retrieval
-- The most important section is Section 9 — if the founder does not have a clear decision to make after reading this, the review has not succeeded
+- The most important section is Section 9  -  if the founder does not have a clear decision to make after reading this, the review has not succeeded

@@ -1,4 +1,4 @@
-# Google Sheets Dashboard Layout — Dorje Teas
+# Google Sheets Dashboard Layout  -  Dorje Teas
 
 > Exact tab structure, column layout, and formula logic for implementing the Dorje revenue OS in Google Sheets.
 > This file makes the dashboard specs in `03_dashboard_blueprints/` executable.
@@ -9,11 +9,11 @@
 ## Why Google Sheets
 
 Google Sheets is the right stack for a small D2C Founder's Office team because:
-- No engineering dependency — the operator builds and maintains it
+- No engineering dependency  -  the operator builds and maintains it
 - Real-time sharing with founder and team
 - Native import from Shopify CSV exports and Google Ads reports
 - Flexible enough for weekly manual updates, structured enough for consistent reporting
-- Formulas are auditable and explainable — no black-box dashboards
+- Formulas are auditable and explainable  -  no black-box dashboards
 
 The goal is a dashboard a founder can open on Monday morning and understand in 10 minutes.
 
@@ -23,23 +23,23 @@ The goal is a dashboard a founder can open on Monday morning and understand in 1
 
 The workbook has 13 tabs, organized in three layers:
 
-**Layer 1 — Raw Data (inputs, updated weekly):**
+**Layer 1  -  Raw Data (inputs, updated weekly):**
 `RAW_Orders` · `RAW_AdSpend` · `RAW_Products` · `RAW_Cohorts`
 
-**Layer 2 — Calculated Views (operator-built, formula-driven):**
+**Layer 2  -  Calculated Views (operator-built, formula-driven):**
 `CALC_MetricDictionary` · `CALC_CM_Model`
 
-**Layer 3 — Dashboard Outputs (founder-facing):**
+**Layer 3  -  Dashboard Outputs (founder-facing):**
 `DASH_Founder` · `DASH_Campaign` · `DASH_Retention` · `DASH_ContributionMargin` · `DASH_Experiments`
 
-**Layer 4 — Operating Documents:**
+**Layer 4  -  Operating Documents:**
 `OPS_WeeklyReview` · `OPS_Assumptions`
 
 ---
 
 ## Tab 1: OPS_Assumptions
 
-**Purpose:** Single source of truth for all cost assumptions. Every formula in the workbook references this tab — not hardcoded values.
+**Purpose:** Single source of truth for all cost assumptions. Every formula in the workbook references this tab  -  not hardcoded values.
 
 **Why this matters:** When COGS changes, packaging cost changes, or the logistics rate card updates, the operator changes one cell here and every dashboard recalculates automatically.
 
@@ -48,22 +48,22 @@ The workbook has 13 tabs, organized in three layers:
 | Col A | Col B | Col C | Col D |
 |---|---|---|---|
 | Assumption Name | Value | Unit | Notes |
-| Product COGS — First Flush 100g | 180 | ₹ per order | [SYNTHETIC] estimated from premium whole-leaf Darjeeling category |
-| Product COGS — Second Flush 100g | 160 | ₹ per order | [SYNTHETIC] |
-| Product COGS — Chai 100g | 120 | ₹ per order | [SYNTHETIC] |
-| Product COGS — Green Tea 100g | 150 | ₹ per order | [SYNTHETIC] |
-| Product COGS — Pyramid Teabags (25 bags) | 90 | ₹ per order | [SYNTHETIC] |
-| Product COGS — Gift Box (standard) | 280 | ₹ per order | [SYNTHETIC] |
-| Packaging — Standard | 55 | ₹ per order | [SYNTHETIC] branded box + inner foil + label |
-| Packaging — Premium (Gift Box) | 130 | ₹ per order | [SYNTHETIC] gift box + ribbon + card |
-| Shipping Cost — Metro | 90 | ₹ per order | [SYNTHETIC] |
-| Shipping Cost — Tier 2/3 | 130 | ₹ per order | [SYNTHETIC] |
-| Shipping Cost — Blended (default) | 110 | ₹ per order | [SYNTHETIC] |
+| Product COGS  -  First Flush 100g | 180 | ₹ per order | [SYNTHETIC] estimated from premium whole-leaf Darjeeling category |
+| Product COGS  -  Second Flush 100g | 160 | ₹ per order | [SYNTHETIC] |
+| Product COGS  -  Chai 100g | 120 | ₹ per order | [SYNTHETIC] |
+| Product COGS  -  Green Tea 100g | 150 | ₹ per order | [SYNTHETIC] |
+| Product COGS  -  Pyramid Teabags (25 bags) | 90 | ₹ per order | [SYNTHETIC] |
+| Product COGS  -  Gift Box (standard) | 280 | ₹ per order | [SYNTHETIC] |
+| Packaging  -  Standard | 55 | ₹ per order | [SYNTHETIC] branded box + inner foil + label |
+| Packaging  -  Premium (Gift Box) | 130 | ₹ per order | [SYNTHETIC] gift box + ribbon + card |
+| Shipping Cost  -  Metro | 90 | ₹ per order | [SYNTHETIC] |
+| Shipping Cost  -  Tier 2/3 | 130 | ₹ per order | [SYNTHETIC] |
+| Shipping Cost  -  Blended (default) | 110 | ₹ per order | [SYNTHETIC] |
 | Payment Gateway Fee | 2% | % of net revenue | Standard Indian gateway rate |
 | Free Shipping Threshold | 699 | ₹ | Assumed from public cart observation |
-| Break-Even CAC — Standard Order | =B_GrossMargin_Standard | ₹ | Auto-calculated from CM model |
+| Break-Even CAC  -  Standard Order | =B_GrossMargin_Standard | ₹ | Auto-calculated from CM model |
 | Target LTV:CAC Ratio | 2.0 | x | Minimum acceptable |
-| Target Repeat Purchase Rate (M2) | 25% | % | Hypothesis — recalibrate with data |
+| Target Repeat Purchase Rate (M2) | 25% | % | Hypothesis  -  recalibrate with data |
 | Target Subscription Attach Rate | 10% | % | Post-second-purchase target |
 | Target CM% (blended) | 20% | % | Minimum sustainable |
 
@@ -251,7 +251,7 @@ Col O (ltv:cac ratio):   =M2/N2
 
 **Structure:**
 
-**Section A — Weekly Order-Level Summary:**
+**Section A  -  Weekly Order-Level Summary:**
 
 | Metric | Formula |
 |---|---|
@@ -270,7 +270,7 @@ Col O (ltv:cac ratio):   =M2/N2
 | Blended ROAS | =Total_Net_Revenue / Total_Paid_Media |
 | Break-Even CAC | =Total_Gross_Margin / Total_New_Customers |
 
-**Section B — CM by Channel:**
+**Section B  -  CM by Channel:**
 
 ```
 Google Search CM:   =SUMIF(RAW_Orders[channel], "google_search", RAW_Orders[contribution_margin])
@@ -282,7 +282,7 @@ Email / WA CM:      =SUMIF(RAW_Orders[channel], "email", RAW_Orders[contribution
 Organic CM:         =SUMIF(RAW_Orders[channel], "organic", RAW_Orders[contribution_margin])
 ```
 
-**Section C — CM by Product Category:**
+**Section C  -  CM by Product Category:**
 
 ```
 First Flush CM:     =SUMIF(RAW_Orders[product_category], "First Flush", RAW_Orders[contribution_margin])
@@ -291,7 +291,7 @@ Gift Box CM:        =SUMIF(RAW_Orders[product_category], "Gift Box", RAW_Orders[
 [repeat for all categories]
 ```
 
-**Section D — CM by Customer Type:**
+**Section D  -  CM by Customer Type:**
 
 ```
 New Customer CM:        =SUMIF(RAW_Orders[customer_type], "new", RAW_Orders[contribution_margin])
@@ -361,7 +361,7 @@ Discount Rate:
 
 **Purpose:** Campaign-level performance view for Growth operator. Pulls from RAW_AdSpend.
 
-**Primary view — Campaign Efficiency Table:**
+**Primary view  -  Campaign Efficiency Table:**
 
 ```
 Columns: Campaign Name | Spend | Impressions | CTR | CPC | Sessions | CVR | Orders | Revenue | CAC | ROAS | CM | Contribution ROAS | Status
@@ -427,7 +427,7 @@ Less: Paid Media:     -₹ [formula]
 Contribution Margin:   ₹ [formula]    [CM%]
 ```
 
-**CM by channel table, CM by product table, CM by customer type table** — each pulled via SUMIF from CALC_CM_Model.
+**CM by channel table, CM by product table, CM by customer type table**  -  each pulled via SUMIF from CALC_CM_Model.
 
 ---
 
@@ -455,13 +455,13 @@ Contribution Margin:   ₹ [formula]    [CM%]
 | N | next_action |
 | O | status |
 
-**Status values:** `Planning` / `Running` / `Inconclusive — extend` / `Complete — Scale` / `Complete — Fix` / `Complete — Kill`
+**Status values:** `Planning` / `Running` / `Inconclusive  -  extend` / `Complete  -  Scale` / `Complete  -  Fix` / `Complete  -  Kill`
 
 ---
 
 ## Tab 12: OPS_WeeklyReview
 
-**Purpose:** The Monday morning operator memo. Sections 1–10 from `weekly_revenue_review_template.md`. Text entry tab — no formulas here. The operator writes the narrative; numbers come from DASH tabs.
+**Purpose:** The Monday morning operator memo. Sections 1–10 from `weekly_revenue_review_template.md`. Text entry tab  -  no formulas here. The operator writes the narrative; numbers come from DASH tabs.
 
 ---
 
@@ -507,7 +507,7 @@ Examples below are illustrative QA cases, not Dorje internal performance metrics
 
 | Error | Likely Cause | Fix |
 |---|---|---|
-| CM% shows >100% | COGS or shipping not populating — VLOOKUP returning 0 | Check product_id match in RAW_Products |
+| CM% shows >100% | COGS or shipping not populating  -  VLOOKUP returning 0 | Check product_id match in RAW_Products |
 | ROAS shows #DIV/0! | Zero spend in that period | Wrap in IFERROR: `=IFERROR(O2/F2, "-")` |
 | Cohort repeat rate >100% | Customer ID mismatch or duplicate orders | Audit customer_id field in Shopify export |
 | Week-on-week % shows large spike | Date filter pulling wrong week | Verify ThisWeekStart / ThisWeekEnd named range values |

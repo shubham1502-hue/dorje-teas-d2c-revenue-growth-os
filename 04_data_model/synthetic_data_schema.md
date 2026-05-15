@@ -1,4 +1,4 @@
-# Synthetic Data Schema — Dorje Teas
+# Synthetic Data Schema  -  Dorje Teas
 
 > Documents every table in the synthetic dataset powering the Dorje revenue OS.
 > All data is synthetic and clearly labeled [SYNTHETIC].
@@ -13,10 +13,10 @@ This project cannot use internal Dorje data. But without data, the Python analys
 notebooks and Google Sheets dashboard would be theoretical documents.
 
 Synthetic data solves this by:
-1. Making the analysis executable — real Python code against realistic values
-2. Demonstrating data modeling judgment — schema design shows operator thinking
-3. Being fully auditable — every assumption is labeled, sourced, or explained
-4. Replacing itself cleanly — on Day 1 with real internal access, each CSV is
+1. Making the analysis executable  -  real Python code against realistic values
+2. Demonstrating data modeling judgment  -  schema design shows operator thinking
+3. Being fully auditable  -  every assumption is labeled, sourced, or explained
+4. Replacing itself cleanly  -  on Day 1 with real internal access, each CSV is
    replaced with a Shopify/Ads export and every downstream formula updates
 
 The generator script (`generate_synthetic_data.py`) is included so any reviewer
@@ -26,12 +26,12 @@ can audit, re-run, and trace every value back to its assumption.
 
 ## Data Design Principles
 
-1. Reflect real Dorje products — names and categories match the public catalog
-2. Use realistic Indian D2C economics — ₹ pricing, Indian cities, Indian logistics benchmarks
-3. Include commercial complexity — discounts, returning customers, subscription orders,
+1. Reflect real Dorje products  -  names and categories match the public catalog
+2. Use realistic Indian D2C economics  -  ₹ pricing, Indian cities, Indian logistics benchmarks
+3. Include commercial complexity  -  discounts, returning customers, subscription orders,
    gift orders, seasonal patterns, channel mix
-4. Be analysis-ready — enough rows and variance for cohort, funnel, and margin analysis
-5. Label every synthetic assumption — any number from internal systems is marked [SYNTHETIC]
+4. Be analysis-ready  -  enough rows and variance for cohort, funnel, and margin analysis
+5. Label every synthetic assumption  -  any number from internal systems is marked [SYNTHETIC]
 
 ---
 
@@ -57,7 +57,7 @@ The timing and demand signals below are synthetic operating assumptions.
 
 **What it is:** Order-level transaction data. One row per order.
 **Real-world source:** Shopify Orders export (D2C channel, last 90–365 days)
-**Row count:** ~437 orders [SYNTHETIC — illustrative volume for 13-month period]
+**Row count:** ~437 orders [SYNTHETIC  -  illustrative volume for 13-month period]
 
 **Why it exists:** Powers revenue analysis, AOV, product mix, contribution margin,
 new vs. returning split, channel attribution, discount rate, and repeat purchase.
@@ -90,7 +90,7 @@ new vs. returning split, channel attribution, discount rate, and repeat purchase
 | discount_code | String | Shopify | Code used or "none" |
 | net_revenue | Float ₹ | Derived | gross_revenue − discount_amount |
 | shipping_charged | Float ₹ | Shopify | What customer paid (0 if above free threshold) |
-| cogs | Float ₹ | [SYNTHETIC] | Product cost — see OPS_Assumptions |
+| cogs | Float ₹ | [SYNTHETIC] | Product cost  -  see OPS_Assumptions |
 | packaging_cost | Float ₹ | [SYNTHETIC] | Standard ₹55 or Premium Gift ₹130 |
 | shipping_cost | Float ₹ | [SYNTHETIC] | Blended ₹85–130 Dorje bears |
 | gateway_fee | Float ₹ | Derived | net_revenue × 2% |
@@ -119,7 +119,7 @@ both pull from this table.
 
 **Key design choices:**
 - 8 paid campaigns across Google and Meta (5 Google, 3 Meta)
-- Seasonal spend multipliers applied — First Flush campaigns scaled in Mar–Apr,
+- Seasonal spend multipliers applied  -  First Flush campaigns scaled in Mar–Apr,
   gift campaigns scaled in Oct–Dec
 - Contribution ROAS calculated after estimated variable costs (~38–52% of revenue)
 - Email campaigns tracked separately with near-zero attributed spend (platform cost only)
@@ -185,8 +185,8 @@ Every contribution margin formula in the orders table and dashboard references t
 retention dashboard. The Python retention notebook reads directly from this table.
 
 **Key design choices:**
-- 13 months of cohorts — enough for meaningful retention curves
-- M0 through M6 retention tracked — shows long-term compounding behavior
+- 13 months of cohorts  -  enough for meaningful retention curves
+- M0 through M6 retention tracked  -  shows long-term compounding behavior
 - Seasonal patterns baked in: Oct–Nov cohorts have higher M0 AOV (Gift Buyer segment)
   but lower repeat rates; First Flush cohorts (Apr) have higher repeat rates
 - subscription_attach_m2 column shows subscription conversion after demonstrated repeat

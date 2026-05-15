@@ -1,4 +1,4 @@
-# D2C Funnel Metrics Dictionary — Dorje Teas
+# D2C Funnel Metrics Dictionary  -  Dorje Teas
 
 > Every metric used in the Dorje revenue operating system, defined precisely.
 > Formula, data source, weekly use case, decision trigger, and common misread.
@@ -14,7 +14,7 @@ Rule: **no metric without a decision use case**.
 
 ---
 
-## Section 1 — Acquisition Metrics
+## Section 1  -  Acquisition Metrics
 
 ---
 
@@ -26,7 +26,7 @@ Rule: **no metric without a decision use case**.
 
 **Source:** Google Analytics 4 / Shopify Analytics
 
-**Weekly use case:** Baseline for all funnel calculations. Sessions is the denominator for CVR. A sudden session spike or drop is often an analytics issue before it is a business issue — check source before reacting.
+**Weekly use case:** Baseline for all funnel calculations. Sessions is the denominator for CVR. A sudden session spike or drop is often an analytics issue before it is a business issue  -  check source before reacting.
 
 **Decision trigger:** Sessions drop >20% week-over-week without a corresponding campaign pause or budget reduction → investigate tracking, campaign status, or organic signal.
 
@@ -96,7 +96,7 @@ Rule: **no metric without a decision use case**.
 
 **Common misread:** CAC calculated as Total Spend / Total Orders (including returning customers) is incorrect. Returning customers should be excluded from the denominator. That metric is CPA, not CAC.
 
-**Dorje-specific note:** CAC for First Flush seasonal campaigns will naturally be different from CAC for always-on Chai campaigns. Do not blend seasonal and always-on CAC into one number — they have different LTV and contribution margin profiles.
+**Dorje-specific note:** CAC for First Flush seasonal campaigns will naturally be different from CAC for always-on Chai campaigns. Do not blend seasonal and always-on CAC into one number  -  they have different LTV and contribution margin profiles.
 
 ---
 
@@ -122,9 +122,9 @@ Rule: **no metric without a decision use case**.
 
 **Formula:** ROAS = Revenue Attributed to Channel / Channel Spend
 
-**Source:** Ad platform reporting (note: attribution window matters — last-click ROAS differs from view-through or data-driven ROAS)
+**Source:** Ad platform reporting (note: attribution window matters  -  last-click ROAS differs from view-through or data-driven ROAS)
 
-**Weekly use case:** ROAS is the most commonly used acquisition performance metric. It is also the most commonly misused. ROAS above 1.0 does not mean profitable — it means revenue exceeded spend, before product cost, packaging, shipping, and discounts.
+**Weekly use case:** ROAS is the most commonly used acquisition performance metric. It is also the most commonly misused. ROAS above 1.0 does not mean profitable  -  it means revenue exceeded spend, before product cost, packaging, shipping, and discounts.
 
 **Decision trigger:** ROAS drops below a channel-specific floor for 2 consecutive weeks → review creative, audience, landing page, and offer before cutting spend.
 
@@ -144,11 +144,11 @@ Rule: **no metric without a decision use case**.
 
 **Decision trigger:** Contribution ROAS below 1.0 on any channel → do not scale. Diagnose whether the issue is COGS, shipping, discounting, or spend.
 
-**Common misread:** Contribution ROAS can look worse than ROAS for high-AOV products with expensive packaging (gift boxes) or high-cost logistics (express shipping). This is expected — contribution ROAS should be tracked per product category, not only overall.
+**Common misread:** Contribution ROAS can look worse than ROAS for high-AOV products with expensive packaging (gift boxes) or high-cost logistics (express shipping). This is expected  -  contribution ROAS should be tracked per product category, not only overall.
 
 ---
 
-## Section 2 — Conversion Metrics
+## Section 2  -  Conversion Metrics
 
 ---
 
@@ -176,7 +176,7 @@ Rule: **no metric without a decision use case**.
 
 **Source:** GA4 (e-commerce events), Shopify Analytics
 
-**Weekly use case:** Add-to-cart rate is the product page conversion signal. A low rate here means the product page is failing to convince — price, trust, clarity, or relevance is the likely issue.
+**Weekly use case:** Add-to-cart rate is the product page conversion signal. A low rate here means the product page is failing to convince  -  price, trust, clarity, or relevance is the likely issue.
 
 **Decision trigger:** Add-to-cart rate drops while sessions hold → product page problem, not a traffic problem. Investigate page layout, price framing, trust signals, and reviews.
 
@@ -212,7 +212,7 @@ Rule: **no metric without a decision use case**.
 
 ---
 
-## Section 3 — Order Economics Metrics
+## Section 3  -  Order Economics Metrics
 
 ---
 
@@ -276,7 +276,7 @@ Rule: **no metric without a decision use case**.
 
 ---
 
-## Section 4 — Margin Metrics
+## Section 4  -  Margin Metrics
 
 ---
 
@@ -306,11 +306,11 @@ Rule: **no metric without a decision use case**.
 
 **Decision trigger:** CM negative on any channel at current spend levels → do not increase spend on that channel. Fix margin or fix spend efficiency first.
 
-**Common misread:** CM should be calculated per order and per channel — not just as a total. A positive total CM can hide a channel-level CM problem if a high-margin channel is subsidizing a low-margin one.
+**Common misread:** CM should be calculated per order and per channel  -  not just as a total. A positive total CM can hide a channel-level CM problem if a high-margin channel is subsidizing a low-margin one.
 
 ---
 
-## Section 5 — Retention Metrics
+## Section 5  -  Retention Metrics
 
 ---
 
@@ -352,7 +352,7 @@ Rule: **no metric without a decision use case**.
 
 **Source:** Shopify subscription app or Tea Club platform
 
-**Weekly use case:** Subscription attach rate is the single most important lever for LTV. Track by SKU and by buyer cohort — not just overall.
+**Weekly use case:** Subscription attach rate is the single most important lever for LTV. Track by SKU and by buyer cohort  -  not just overall.
 
 **Decision trigger:** Subscription attach rate below 5% overall → subscription offer is either too early (push after second purchase), too prominent (triggering resistance), or poorly framed (benefit not clear).
 
@@ -386,7 +386,7 @@ Rule: **no metric without a decision use case**.
 
 ---
 
-## Section 6 — LTV Metrics
+## Section 6  -  LTV Metrics
 
 ---
 
@@ -416,7 +416,7 @@ Rule: **no metric without a decision use case**.
 
 **Decision trigger:** LTV:CAC below 1.5x → acquisition is not recovering cost within 12 months. Pause scaling, improve retention, or reduce CAC.
 
-**Common misread:** LTV:CAC ratios improve over time as cohorts age. A 6-month LTV:CAC of 1.2x may become 2.5x at 18 months if retention is strong. Do not kill a channel based on early cohort LTV alone — but do not scale it aggressively either.
+**Common misread:** LTV:CAC ratios improve over time as cohorts age. A 6-month LTV:CAC of 1.2x may become 2.5x at 18 months if retention is strong. Do not kill a channel based on early cohort LTV alone  -  but do not scale it aggressively either.
 
 ---
 

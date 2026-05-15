@@ -1,4 +1,4 @@
-# Public Research Notes — Dorje Teas
+# Public Research Notes  -  Dorje Teas
 
 > Everything in this file is based on publicly available information.
 > No internal data, internal conversations, or proprietary research was used.
@@ -8,7 +8,7 @@
 
 ## 1. Brand Positioning
 
-Dorje Teas positions itself around estate provenance, not blend or price. The core claim is whole-leaf Darjeeling tea plucked, packed, and dispatched from Selim Hill Tea Estate — a certified organic heritage garden in Darjeeling.
+Dorje Teas positions itself around estate provenance, not blend or price. The core claim is whole-leaf Darjeeling tea plucked, packed, and dispatched from Selim Hill Tea Estate  -  a certified organic heritage garden in Darjeeling.
 
 This is a meaningful differentiation in the Indian premium tea market, where most brands sell blended teas of unclear origin. Dorje's positioning creates a direct line between the consumer's cup and a specific, named, traceable place.
 
@@ -19,7 +19,7 @@ Key positioning signals observed publicly:
 - Freshness and harvest timing (First Flush, Second Flush) used as product framing
 - Founder/estate connection implied in the brand narrative
 
-**D2C implication:** Premium positioning requires higher trust investment before first purchase. Landing pages, product pages, and email flows cannot skip the "why should I trust this" question. Trust-building content is not optional — it is conversion infrastructure.
+**D2C implication:** Premium positioning requires higher trust investment before first purchase. Landing pages, product pages, and email flows cannot skip the "why should I trust this" question. Trust-building content is not optional  -  it is conversion infrastructure.
 
 ---
 
@@ -65,7 +65,7 @@ Based on Dorje's public product catalog, the following product types are visible
 
 Pricing was not extracted in detail, but the general tier observed is consistent with premium D2C Indian tea brands: above mass-market supermarket pricing, below luxury/artisanal gift-only pricing.
 
-This positions Dorje in the "affordable premium" zone — aspirational enough to require trust, accessible enough to repeat purchase without guilt.
+This positions Dorje in the "affordable premium" zone  -  aspirational enough to require trust, accessible enough to repeat purchase without guilt.
 
 **D2C implication:** Price-per-cup framing could unlock conversion for hesitant first-time buyers. A 100g First Flush pack at a premium price point looks expensive at face value but reasonable when framed as 40–50 cups of exceptional Darjeeling tea at ₹X per cup.
 
@@ -136,7 +136,7 @@ Dorje's public site shows subscription as a visible commercial line, not just a 
 | Tea Club plan-level subscription | Page CVR, plan selection, renewal rate, churn, subscriber LTV |
 | Product-level subscription | Subscription attach rate by SKU, first renewal, product-level churn, subscription contribution margin |
 
-**Operator hypothesis:** Subscription should not be pushed uniformly to all first-time buyers. Dorje should test subscription prompts after product education, second purchase, high engagement, or replenishment behavior — not on the first visit.
+**Operator hypothesis:** Subscription should not be pushed uniformly to all first-time buyers. Dorje should test subscription prompts after product education, second purchase, high engagement, or replenishment behavior  -  not on the first visit.
 
 ---
 
@@ -163,7 +163,7 @@ Dorje's public site shows premium pricing but also visible promotional mechanics
 
 Dorje's product FAQs publicly communicate a direct-from-Darjeeling promise: tea is roasted again before leaving the factory, dispatched directly to customers with no middlemen when bought from the website, and reaches customers within a stated window after dispatch from Darjeeling.
 
-**D2C implication:** Logistics is not only an ops function — it is part of the conversion promise.
+**D2C implication:** Logistics is not only an ops function  -  it is part of the conversion promise.
 
 The founder dashboard should track:
 - Delivery timeline adherence vs. stated promise
@@ -173,7 +173,7 @@ The founder dashboard should track:
 - Region-wise logistics cost
 - Customer complaints linked to delivery or freshness
 
-**Operator hypothesis:** If Dorje is using freshness and direct-from-estate fulfillment as a trust lever, delivery reliability and freshness perception should be reviewed alongside conversion and repeat purchase metrics — not separately.
+**Operator hypothesis:** If Dorje is using freshness and direct-from-estate fulfillment as a trust lever, delivery reliability and freshness perception should be reviewed alongside conversion and repeat purchase metrics  -  not separately.
 
 ---
 
@@ -218,10 +218,10 @@ The premium Indian D2C tea market includes several operators:
 
 | Brand Type | Differentiation Angle | Dorje's Position vs. This |
 |---|---|---|
-| Heritage estate brands | Origin, authenticity | Dorje's core strength — Selim Hill is specific and traceable |
+| Heritage estate brands | Origin, authenticity | Dorje's core strength  -  Selim Hill is specific and traceable |
 | Wellness/functional tea brands | Health claims, ingredients | Less relevant for Dorje's current positioning |
 | Gifting-first tea brands | Premium packaging, brand name | Dorje has gifting potential but needs bundle/gifting architecture |
-| Marketplace tea brands | Price, volume, discovery | Dorje should not compete here — margin and positioning dilution risk |
+| Marketplace tea brands | Price, volume, discovery | Dorje should not compete here  -  margin and positioning dilution risk |
 | Specialty/artisanal importers | Rare origins, collector appeal | Adjacent; First Flush seasonality creates overlap |
 
 **D2C implication:** Dorje's defensible position is estate-origin specificity + sustainability narrative. Neither of these can be copied quickly by commodity brands. The revenue OS should build around defending and monetizing this moat, not racing into category-generic channels.
@@ -241,17 +241,17 @@ Darjeeling tea has natural seasonal moments that should anchor the D2C campaign 
 | January | New Year / wellness | Health-positioning angle for Green Tea, Cold Brew |
 | Year-round | Daily chai consumption | Replenishment-led retention |
 
-**D2C implication:** Treating every month the same is a waste of seasonal intent. The campaign budget, creative, and landing page should shift by season. First Flush is a window that closes — it cannot be made up later in the year.
+**D2C implication:** Treating every month the same is a waste of seasonal intent. The campaign budget, creative, and landing page should shift by season. First Flush is a window that closes  -  it cannot be made up later in the year.
 
 ---
 
 ## Summary: What Public Research Tells Us About the D2C Operating System
 
-1. **Instrument what already exists** — Dorje has trust assets, conversion mechanics, subscription products, and a defined product ladder. The operator opportunity is to measure, sequence, and optimize them — not invent strategy from scratch.
-2. **Trust before conversion** — premium positioning requires education infrastructure at the right funnel stage, not just a buy button
-3. **Product ladder is real** — acquisition products (First Flush, bundles), replenishment products (Chai, subscriptions), and gifting products (gift boxes) each need separate operating logic
-4. **Seasonality is structural** — the campaign calendar must account for harvest windows and gifting seasons as distinct commercial tracks
-5. **Story is a growth lever** — Selim Hill, Alt Carbon, and Darjeeling revival are underutilized conversion and retention assets already grounded in the product FAQ
-6. **Subscription is the LTV ceiling** — Tea Club and SKU-level subscriptions done well are the highest-margin, most predictable revenue lines
-7. **Discounting needs tracking** — visible promotional mechanics mean discount rate and contribution margin must be monitored, not assumed away
-8. **Logistics is a brand promise** — the freshness and direct-from-Darjeeling claim must be backed by delivery performance tracking alongside conversion metrics
+1. **Instrument what already exists**  -  Dorje has trust assets, conversion mechanics, subscription products, and a defined product ladder. The operator opportunity is to measure, sequence, and optimize them  -  not invent strategy from scratch.
+2. **Trust before conversion**  -  premium positioning requires education infrastructure at the right funnel stage, not just a buy button
+3. **Product ladder is real**  -  acquisition products (First Flush, bundles), replenishment products (Chai, subscriptions), and gifting products (gift boxes) each need separate operating logic
+4. **Seasonality is structural**  -  the campaign calendar must account for harvest windows and gifting seasons as distinct commercial tracks
+5. **Story is a growth lever**  -  Selim Hill, Alt Carbon, and Darjeeling revival are underutilized conversion and retention assets already grounded in the product FAQ
+6. **Subscription is the LTV ceiling**  -  Tea Club and SKU-level subscriptions done well are the highest-margin, most predictable revenue lines
+7. **Discounting needs tracking**  -  visible promotional mechanics mean discount rate and contribution margin must be monitored, not assumed away
+8. **Logistics is a brand promise**  -  the freshness and direct-from-Darjeeling claim must be backed by delivery performance tracking alongside conversion metrics

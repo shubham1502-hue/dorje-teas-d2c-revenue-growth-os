@@ -4,6 +4,19 @@
 > Public-information and synthetic-data proof of work.
 > No internal Dorje data was used at any point.
 
+## Marginal acquisition and payback
+
+The [synthetic scenario output](05_python_analysis/marginal_acquisition_scenarios.csv) tests an incremental INR 10,000 media tranche against weaker acquisition efficiency and different repeat and subscription assumptions.
+
+```bash
+python3 05_python_analysis/marginal_acquisition.py --campaign-id CMP-GS-001 --budget 10000
+python3 -m unittest discover -s 05_python_analysis
+```
+
+The campaign export anchors the baseline CAC. The order sample anchors unit contribution. The files are separate synthetic inputs, so the model uses their aggregates and avoids a row-level attribution join. Net product revenue includes discounts. Pre-media contribution adds shipping collected and deducts product, packaging, shipping, and payment costs. Subtract marginal CAC once to get contribution after paid acquisition.
+
+The model adds expected non-subscription repeat contribution in month two and expected subscriber contribution each month. Attach rate and monthly subscription retention are explicit scenario assumptions. The six-month CAC ceiling is cumulative pre-media contribution per new buyer. Cash payback here is the first modeled month that accumulated order contribution covers acquisition spend. A live decision would use an incremental test with a holdout and reconcile spend, new buyers, returns, and fulfillment costs.
+
 ## Start here
 
 | Question | Answer |

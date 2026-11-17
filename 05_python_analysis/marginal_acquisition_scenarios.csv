@@ -1,0 +1,4 @@
+campaign_id,scenario,synthetic_campaign_weeks,sample_first_orders,baseline_cac_inr,assumed_cac_multiple,marginal_cac_inr,repeat_purchase_probability,subscription_attach,monthly_subscription_retention,first_order_pre_media_contribution_inr,repeat_order_pre_media_contribution_inr,subscription_order_pre_media_contribution_inr,incremental_media_budget_inr,expected_incremental_buyers,six_month_max_cac_inr,six_month_net_per_buyer_inr,six_month_net_for_increment_inr,payback_month,decision
+CMP-GS-001,Downside,57,21,322.94,1.65,532.85,0.12,0.03,0.6,368.44,406.91,418.35,10000.0,18.77,445.72,-87.14,-1635.26,,Hold incremental paid spend
+CMP-GS-001,Base,57,21,322.94,1.35,435.97,0.21,0.06,0.75,368.44,406.91,418.35,10000.0,22.94,531.3,95.33,2186.6,2,Test increment with a holdout
+CMP-GS-001,Upside,57,21,322.94,1.1,355.24,0.28,0.1,0.85,368.44,406.91,418.35,10000.0,28.15,644.7,289.46,8148.43,0,Test increment with a holdout
